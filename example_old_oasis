@@ -1,0 +1,1012 @@
+[{
+        "allDay": false,
+        "editable": false,
+        "start": "2020-02-13T08:15",
+        "tooltip": "<span class='tijdstip'>08:15-10:15<\/span><br/><span class='activiteittype'>Onderwijs<\/span><br/><span class='cursusnaam'>Wiskunde II<\/span><br/><span class='cursuscode'>E701034<\/span><br/>groep: 16-18<br/>Cristina Tonesi, Tanja Van Hecke<br/>GSCHB.2.018, Valentin Vaerwyckweg 1, Gent, 41.02 - Gebouw B, Campus Schoonmeersen<br/>",
+        "description": "<span class='activiteittype'>Onderwijs<\/span><br/><span class='cursusnaam'>Wiskunde II<\/span><br/><span class='cursuscode'>E701034<\/span><br/>groep: 16-18<br/>Cristina Tonesi, Tanja Van Hecke<br/>GSCHB.2.018, Valentin Vaerwyckweg 1, Gent, 41.02 - Gebouw B, Campus Schoonmeersen<br/>",
+        "end": "2020-02-13T10:15",
+        "className": "onderwijs",
+        "id": 1,
+        "title": "E701034"
+    }, {
+        "allDay": false,
+        "editable": false,
+        "start": "2020-02-20T08:15",
+        "tooltip": "<span class='tijdstip'>08:15-10:15<\/span><br/><span class='activiteittype'>Onderwijs<\/span><br/><span class='cursusnaam'>Wiskunde II<\/span><br/><span class='cursuscode'>E701034<\/span><br/>groep: 16-18<br/>Cristina Tonesi, Tanja Van Hecke<br/>GSCHB.2.018, Valentin Vaerwyckweg 1, Gent, 41.02 - Gebouw B, Campus Schoonmeersen<br/>",
+        "description": "<span class='activiteittype'>Onderwijs<\/span><br/><span class='cursusnaam'>Wiskunde II<\/span><br/><span class='cursuscode'>E701034<\/span><br/>groep: 16-18<br/>Cristina Tonesi, Tanja Van Hecke<br/>GSCHB.2.018, Valentin Vaerwyckweg 1, Gent, 41.02 - Gebouw B, Campus Schoonmeersen<br/>",
+        "end": "2020-02-20T10:15",
+        "className": "onderwijs",
+        "id": 2,
+        "title": "E701034"
+    }, {
+        "allDay": false,
+        "editable": false,
+        "start": "2020-02-27T08:15",
+        "tooltip": "<span class='tijdstip'>08:15-10:15<\/span><br/><span class='activiteittype'>Onderwijs<\/span><br/><span class='cursusnaam'>Wiskunde II<\/span><br/><span class='cursuscode'>E701034<\/span><br/>groep: 16-18<br/>Cristina Tonesi, Tanja Van Hecke<br/>GSCHB.2.018, Valentin Vaerwyckweg 1, Gent, 41.02 - Gebouw B, Campus Schoonmeersen<br/>",
+        "description": "<span class='activiteittype'>Onderwijs<\/span><br/><span class='cursusnaam'>Wiskunde II<\/span><br/><span class='cursuscode'>E701034<\/span><br/>groep: 16-18<br/>Cristina Tonesi, Tanja Van Hecke<br/>GSCHB.2.018, Valentin Vaerwyckweg 1, Gent, 41.02 - Gebouw B, Campus Schoonmeersen<br/>",
+        "end": "2020-02-27T10:15",
+        "className": "onderwijs",
+        "id": 3,
+        "title": "E701034"
+    }, {
+        "allDay": false,
+        "editable": false,
+        "start": "2020-03-05T08:15",
+        "tooltip": "<span class='tijdstip'>08:15-10:15<\/span><br/><span class='activiteittype'>Onderwijs<\/span><br/><span class='cursusnaam'>Wiskunde II<\/span><br/><span class='cursuscode'>E701034<\/span><br/>groep: 16-18<br/>Cristina Tonesi, Tanja Van Hecke<br/>GSCHB.2.018, Valentin Vaerwyckweg 1, Gent, 41.02 - Gebouw B, Campus Schoonmeersen<br/>",
+        "description": "<span class='activiteittype'>Onderwijs<\/span><br/><span class='cursusnaam'>Wiskunde II<\/span><br/><span class='cursuscode'>E701034<\/span><br/>groep: 16-18<br/>Cristina Tonesi, Tanja Van Hecke<br/>GSCHB.2.018, Valentin Vaerwyckweg 1, Gent, 41.02 - Gebouw B, Campus Schoonmeersen<br/>",
+        "end": "2020-03-05T10:15",
+        "className": "onderwijs",
+        "id": 4,
+        "title": "E701034"
+    }, {
+        "allDay": false,
+        "editable": false,
+        "start": "2020-02-11T08:15",
+        "tooltip": "<span class='tijdstip'>08:15-10:15<\/span><br/><span class='activiteittype'>Onderwijs<\/span><br/><span class='cursusnaam'>Wiskunde II<\/span><br/><span class='cursuscode'>E701034<\/span><br/>groep: 1-18,30-34,36-39<br/>Tanja Van Hecke<br/>Auditorium 5 Jeanne Wiemer, Blandijnberg 2, Gent, 05.03 - Blandijn, Campus Boekentoren<br/>",
+        "description": "<span class='activiteittype'>Onderwijs<\/span><br/><span class='cursusnaam'>Wiskunde II<\/span><br/><span class='cursuscode'>E701034<\/span><br/>groep: 1-18,30-34,36-39<br/>Tanja Van Hecke<br/>Auditorium 5 Jeanne Wiemer, Blandijnberg 2, Gent, 05.03 - Blandijn, Campus Boekentoren<br/>",
+        "end": "2020-02-11T10:15",
+        "className": "onderwijs",
+        "id": 5,
+        "title": "E701034"
+    }, {
+        "allDay": false,
+        "editable": false,
+        "start": "2020-02-11T10:30",
+        "tooltip": "<span class='tijdstip'>10:30-11:30<\/span><br/><span class='activiteittype'>Onderwijs<\/span><br/><span class='cursusnaam'>Wiskunde II<\/span><br/><span class='cursuscode'>E701034<\/span><br/>groep: 1-18,30-34,36-39<br/>Tanja Van Hecke<br/>Auditorium 5 Jeanne Wiemer, Blandijnberg 2, Gent, 05.03 - Blandijn, Campus Boekentoren<br/>",
+        "description": "<span class='activiteittype'>Onderwijs<\/span><br/><span class='cursusnaam'>Wiskunde II<\/span><br/><span class='cursuscode'>E701034<\/span><br/>groep: 1-18,30-34,36-39<br/>Tanja Van Hecke<br/>Auditorium 5 Jeanne Wiemer, Blandijnberg 2, Gent, 05.03 - Blandijn, Campus Boekentoren<br/>",
+        "end": "2020-02-11T11:30",
+        "className": "onderwijs",
+        "id": 6,
+        "title": "E701034"
+    }, {
+        "allDay": false,
+        "editable": false,
+        "start": "2020-02-18T08:15",
+        "tooltip": "<span class='tijdstip'>08:15-10:15<\/span><br/><span class='activiteittype'>Onderwijs<\/span><br/><span class='cursusnaam'>Wiskunde II<\/span><br/><span class='cursuscode'>E701034<\/span><br/>groep: 1-18,30-34,36-39<br/>Tanja Van Hecke<br/>Auditorium 5 Jeanne Wiemer, Blandijnberg 2, Gent, 05.03 - Blandijn, Campus Boekentoren<br/>",
+        "description": "<span class='activiteittype'>Onderwijs<\/span><br/><span class='cursusnaam'>Wiskunde II<\/span><br/><span class='cursuscode'>E701034<\/span><br/>groep: 1-18,30-34,36-39<br/>Tanja Van Hecke<br/>Auditorium 5 Jeanne Wiemer, Blandijnberg 2, Gent, 05.03 - Blandijn, Campus Boekentoren<br/>",
+        "end": "2020-02-18T10:15",
+        "className": "onderwijs",
+        "id": 7,
+        "title": "E701034"
+    }, {
+        "allDay": false,
+        "editable": false,
+        "start": "2020-02-18T10:30",
+        "tooltip": "<span class='tijdstip'>10:30-11:30<\/span><br/><span class='activiteittype'>Onderwijs<\/span><br/><span class='cursusnaam'>Wiskunde II<\/span><br/><span class='cursuscode'>E701034<\/span><br/>groep: 1-18,30-34,36-39<br/>Tanja Van Hecke<br/>Auditorium 5 Jeanne Wiemer, Blandijnberg 2, Gent, 05.03 - Blandijn, Campus Boekentoren<br/>",
+        "description": "<span class='activiteittype'>Onderwijs<\/span><br/><span class='cursusnaam'>Wiskunde II<\/span><br/><span class='cursuscode'>E701034<\/span><br/>groep: 1-18,30-34,36-39<br/>Tanja Van Hecke<br/>Auditorium 5 Jeanne Wiemer, Blandijnberg 2, Gent, 05.03 - Blandijn, Campus Boekentoren<br/>",
+        "end": "2020-02-18T11:30",
+        "className": "onderwijs",
+        "id": 8,
+        "title": "E701034"
+    }, {
+        "allDay": false,
+        "editable": false,
+        "start": "2020-02-25T08:15",
+        "tooltip": "<span class='tijdstip'>08:15-10:15<\/span><br/><span class='activiteittype'>Onderwijs<\/span><br/><span class='cursusnaam'>Wiskunde II<\/span><br/><span class='cursuscode'>E701034<\/span><br/>groep: 1-18,30-34,36-39<br/>Tanja Van Hecke<br/>Auditorium 5 Jeanne Wiemer, Blandijnberg 2, Gent, 05.03 - Blandijn, Campus Boekentoren<br/>",
+        "description": "<span class='activiteittype'>Onderwijs<\/span><br/><span class='cursusnaam'>Wiskunde II<\/span><br/><span class='cursuscode'>E701034<\/span><br/>groep: 1-18,30-34,36-39<br/>Tanja Van Hecke<br/>Auditorium 5 Jeanne Wiemer, Blandijnberg 2, Gent, 05.03 - Blandijn, Campus Boekentoren<br/>",
+        "end": "2020-02-25T10:15",
+        "className": "onderwijs",
+        "id": 9,
+        "title": "E701034"
+    }, {
+        "allDay": false,
+        "editable": false,
+        "start": "2020-02-25T10:30",
+        "tooltip": "<span class='tijdstip'>10:30-11:30<\/span><br/><span class='activiteittype'>Onderwijs<\/span><br/><span class='cursusnaam'>Wiskunde II<\/span><br/><span class='cursuscode'>E701034<\/span><br/>groep: 1-18,30-34,36-39<br/>Tanja Van Hecke<br/>Auditorium 5 Jeanne Wiemer, Blandijnberg 2, Gent, 05.03 - Blandijn, Campus Boekentoren<br/>",
+        "description": "<span class='activiteittype'>Onderwijs<\/span><br/><span class='cursusnaam'>Wiskunde II<\/span><br/><span class='cursuscode'>E701034<\/span><br/>groep: 1-18,30-34,36-39<br/>Tanja Van Hecke<br/>Auditorium 5 Jeanne Wiemer, Blandijnberg 2, Gent, 05.03 - Blandijn, Campus Boekentoren<br/>",
+        "end": "2020-02-25T11:30",
+        "className": "onderwijs",
+        "id": 10,
+        "title": "E701034"
+    }, {
+        "allDay": false,
+        "editable": false,
+        "start": "2020-03-03T08:15",
+        "tooltip": "<span class='tijdstip'>08:15-10:15<\/span><br/><span class='activiteittype'>Onderwijs<\/span><br/><span class='cursusnaam'>Wiskunde II<\/span><br/><span class='cursuscode'>E701034<\/span><br/>groep: 1-18,30-34,36-39<br/>Tanja Van Hecke<br/>Auditorium 5 Jeanne Wiemer, Blandijnberg 2, Gent, 05.03 - Blandijn, Campus Boekentoren<br/>",
+        "description": "<span class='activiteittype'>Onderwijs<\/span><br/><span class='cursusnaam'>Wiskunde II<\/span><br/><span class='cursuscode'>E701034<\/span><br/>groep: 1-18,30-34,36-39<br/>Tanja Van Hecke<br/>Auditorium 5 Jeanne Wiemer, Blandijnberg 2, Gent, 05.03 - Blandijn, Campus Boekentoren<br/>",
+        "end": "2020-03-03T10:15",
+        "className": "onderwijs",
+        "id": 11,
+        "title": "E701034"
+    }, {
+        "allDay": false,
+        "editable": false,
+        "start": "2020-03-03T10:30",
+        "tooltip": "<span class='tijdstip'>10:30-11:30<\/span><br/><span class='activiteittype'>Onderwijs<\/span><br/><span class='cursusnaam'>Wiskunde II<\/span><br/><span class='cursuscode'>E701034<\/span><br/>groep: 1-18,30-34,36-39<br/>Tanja Van Hecke<br/>Auditorium 5 Jeanne Wiemer, Blandijnberg 2, Gent, 05.03 - Blandijn, Campus Boekentoren<br/>",
+        "description": "<span class='activiteittype'>Onderwijs<\/span><br/><span class='cursusnaam'>Wiskunde II<\/span><br/><span class='cursuscode'>E701034<\/span><br/>groep: 1-18,30-34,36-39<br/>Tanja Van Hecke<br/>Auditorium 5 Jeanne Wiemer, Blandijnberg 2, Gent, 05.03 - Blandijn, Campus Boekentoren<br/>",
+        "end": "2020-03-03T11:30",
+        "className": "onderwijs",
+        "id": 12,
+        "title": "E701034"
+    }, {
+        "allDay": false,
+        "editable": false,
+        "start": "2020-02-13T15:45",
+        "tooltip": "<span class='tijdstip'>15:45-17:45<\/span><br/><span class='activiteittype'>Onderwijs<\/span><br/><span class='cursusnaam'>Elektronica<\/span><br/><span class='cursuscode'>E701055<\/span><br/>groep: -<br/>Jo Verhaevert<br/>Auditorium A (via Plateaustr.), Jozef Plateaustraat 22, Gent, 18.01 - Plateau-Rozier, Campus Boekentoren<br/>Van 15h30 tot 17h30<br/>",
+        "description": "<span class='activiteittype'>Onderwijs<\/span><br/><span class='cursusnaam'>Elektronica<\/span><br/><span class='cursuscode'>E701055<\/span><br/>groep: -<br/>Jo Verhaevert<br/>Auditorium A (via Plateaustr.), Jozef Plateaustraat 22, Gent, 18.01 - Plateau-Rozier, Campus Boekentoren<br/>Van 15h30 tot 17h30<br/>",
+        "end": "2020-02-13T17:45",
+        "className": "onderwijs",
+        "id": 13,
+        "title": "E701055"
+    }, {
+        "allDay": false,
+        "editable": false,
+        "start": "2020-02-20T15:45",
+        "tooltip": "<span class='tijdstip'>15:45-17:45<\/span><br/><span class='activiteittype'>Onderwijs<\/span><br/><span class='cursusnaam'>Elektronica<\/span><br/><span class='cursuscode'>E701055<\/span><br/>groep: -<br/>Jo Verhaevert<br/>Auditorium A (via Plateaustr.), Jozef Plateaustraat 22, Gent, 18.01 - Plateau-Rozier, Campus Boekentoren<br/>Van 15h30 tot 17h30<br/>",
+        "description": "<span class='activiteittype'>Onderwijs<\/span><br/><span class='cursusnaam'>Elektronica<\/span><br/><span class='cursuscode'>E701055<\/span><br/>groep: -<br/>Jo Verhaevert<br/>Auditorium A (via Plateaustr.), Jozef Plateaustraat 22, Gent, 18.01 - Plateau-Rozier, Campus Boekentoren<br/>Van 15h30 tot 17h30<br/>",
+        "end": "2020-02-20T17:45",
+        "className": "onderwijs",
+        "id": 14,
+        "title": "E701055"
+    }, {
+        "allDay": false,
+        "editable": false,
+        "start": "2020-02-27T15:45",
+        "tooltip": "<span class='tijdstip'>15:45-17:45<\/span><br/><span class='activiteittype'>Onderwijs<\/span><br/><span class='cursusnaam'>Elektronica<\/span><br/><span class='cursuscode'>E701055<\/span><br/>groep: -<br/>Jo Verhaevert<br/>Auditorium A (via Plateaustr.), Jozef Plateaustraat 22, Gent, 18.01 - Plateau-Rozier, Campus Boekentoren<br/>Van 15h30 tot 17h30<br/>",
+        "description": "<span class='activiteittype'>Onderwijs<\/span><br/><span class='cursusnaam'>Elektronica<\/span><br/><span class='cursuscode'>E701055<\/span><br/>groep: -<br/>Jo Verhaevert<br/>Auditorium A (via Plateaustr.), Jozef Plateaustraat 22, Gent, 18.01 - Plateau-Rozier, Campus Boekentoren<br/>Van 15h30 tot 17h30<br/>",
+        "end": "2020-02-27T17:45",
+        "className": "onderwijs",
+        "id": 15,
+        "title": "E701055"
+    }, {
+        "allDay": false,
+        "editable": false,
+        "start": "2020-03-05T15:45",
+        "tooltip": "<span class='tijdstip'>15:45-17:45<\/span><br/><span class='activiteittype'>Onderwijs<\/span><br/><span class='cursusnaam'>Elektronica<\/span><br/><span class='cursuscode'>E701055<\/span><br/>groep: -<br/>Jo Verhaevert<br/>Auditorium A (via Plateaustr.), Jozef Plateaustraat 22, Gent, 18.01 - Plateau-Rozier, Campus Boekentoren<br/>Van 15h30 tot 17h30<br/>",
+        "description": "<span class='activiteittype'>Onderwijs<\/span><br/><span class='cursusnaam'>Elektronica<\/span><br/><span class='cursuscode'>E701055<\/span><br/>groep: -<br/>Jo Verhaevert<br/>Auditorium A (via Plateaustr.), Jozef Plateaustraat 22, Gent, 18.01 - Plateau-Rozier, Campus Boekentoren<br/>Van 15h30 tot 17h30<br/>",
+        "end": "2020-03-05T17:45",
+        "className": "onderwijs",
+        "id": 16,
+        "title": "E701055"
+    }, {
+        "allDay": false,
+        "editable": false,
+        "start": "2020-02-11T13:30",
+        "tooltip": "<span class='tijdstip'>13:30-14:30<\/span><br/><span class='activiteittype'>Onderwijs<\/span><br/><span class='cursusnaam'>Elektronica<\/span><br/><span class='cursuscode'>E701055<\/span><br/>groep: -<br/>Jo Verhaevert<br/>Auditorium 1, K.L. Ledeganckstraat 35, Gent, 04.09 - L9 1ste fase, Campus Ledeganck<br/>Van 13h tot 14h<br/>",
+        "description": "<span class='activiteittype'>Onderwijs<\/span><br/><span class='cursusnaam'>Elektronica<\/span><br/><span class='cursuscode'>E701055<\/span><br/>groep: -<br/>Jo Verhaevert<br/>Auditorium 1, K.L. Ledeganckstraat 35, Gent, 04.09 - L9 1ste fase, Campus Ledeganck<br/>Van 13h tot 14h<br/>",
+        "end": "2020-02-11T14:30",
+        "className": "onderwijs",
+        "id": 17,
+        "title": "E701055"
+    }, {
+        "allDay": false,
+        "editable": false,
+        "start": "2020-02-25T13:30",
+        "tooltip": "<span class='tijdstip'>13:30-14:30<\/span><br/><span class='activiteittype'>Onderwijs<\/span><br/><span class='cursusnaam'>Elektronica<\/span><br/><span class='cursuscode'>E701055<\/span><br/>groep: -<br/>Jo Verhaevert<br/>Auditorium 1, K.L. Ledeganckstraat 35, Gent, 04.09 - L9 1ste fase, Campus Ledeganck<br/>Van 13h tot 14h<br/>",
+        "description": "<span class='activiteittype'>Onderwijs<\/span><br/><span class='cursusnaam'>Elektronica<\/span><br/><span class='cursuscode'>E701055<\/span><br/>groep: -<br/>Jo Verhaevert<br/>Auditorium 1, K.L. Ledeganckstraat 35, Gent, 04.09 - L9 1ste fase, Campus Ledeganck<br/>Van 13h tot 14h<br/>",
+        "end": "2020-02-25T14:30",
+        "className": "onderwijs",
+        "id": 18,
+        "title": "E701055"
+    }, {
+        "allDay": false,
+        "editable": false,
+        "start": "2020-02-13T13:30",
+        "tooltip": "<span class='tijdstip'>13:30-15:30<\/span><br/><span class='activiteittype'>Onderwijs<\/span><br/><span class='cursusnaam'>Duurzame energietechnieken<\/span><br/><span class='cursuscode'>E701054<\/span><br/>groep: -<br/>Johan Lauwaert<br/>Auditorium A (via Plateaustr.), Jozef Plateaustraat 22, Gent, 18.01 - Plateau-Rozier, Campus Boekentoren<br/>Van 13h30 tot 15h15<br/>",
+        "description": "<span class='activiteittype'>Onderwijs<\/span><br/><span class='cursusnaam'>Duurzame energietechnieken<\/span><br/><span class='cursuscode'>E701054<\/span><br/>groep: -<br/>Johan Lauwaert<br/>Auditorium A (via Plateaustr.), Jozef Plateaustraat 22, Gent, 18.01 - Plateau-Rozier, Campus Boekentoren<br/>Van 13h30 tot 15h15<br/>",
+        "end": "2020-02-13T15:30",
+        "className": "onderwijs",
+        "id": 19,
+        "title": "E701054"
+    }, {
+        "allDay": false,
+        "editable": false,
+        "start": "2020-02-20T13:30",
+        "tooltip": "<span class='tijdstip'>13:30-15:30<\/span><br/><span class='activiteittype'>Onderwijs<\/span><br/><span class='cursusnaam'>Duurzame energietechnieken<\/span><br/><span class='cursuscode'>E701054<\/span><br/>groep: -<br/>Johan Lauwaert<br/>Auditorium A (via Plateaustr.), Jozef Plateaustraat 22, Gent, 18.01 - Plateau-Rozier, Campus Boekentoren<br/>Van 13h30 tot 15h15<br/>",
+        "description": "<span class='activiteittype'>Onderwijs<\/span><br/><span class='cursusnaam'>Duurzame energietechnieken<\/span><br/><span class='cursuscode'>E701054<\/span><br/>groep: -<br/>Johan Lauwaert<br/>Auditorium A (via Plateaustr.), Jozef Plateaustraat 22, Gent, 18.01 - Plateau-Rozier, Campus Boekentoren<br/>Van 13h30 tot 15h15<br/>",
+        "end": "2020-02-20T15:30",
+        "className": "onderwijs",
+        "id": 20,
+        "title": "E701054"
+    }, {
+        "allDay": false,
+        "editable": false,
+        "start": "2020-02-27T13:30",
+        "tooltip": "<span class='tijdstip'>13:30-15:30<\/span><br/><span class='activiteittype'>Onderwijs<\/span><br/><span class='cursusnaam'>Duurzame energietechnieken<\/span><br/><span class='cursuscode'>E701054<\/span><br/>groep: -<br/>Johan Lauwaert<br/>Auditorium A (via Plateaustr.), Jozef Plateaustraat 22, Gent, 18.01 - Plateau-Rozier, Campus Boekentoren<br/>Van 13h30 tot 15h15<br/>",
+        "description": "<span class='activiteittype'>Onderwijs<\/span><br/><span class='cursusnaam'>Duurzame energietechnieken<\/span><br/><span class='cursuscode'>E701054<\/span><br/>groep: -<br/>Johan Lauwaert<br/>Auditorium A (via Plateaustr.), Jozef Plateaustraat 22, Gent, 18.01 - Plateau-Rozier, Campus Boekentoren<br/>Van 13h30 tot 15h15<br/>",
+        "end": "2020-02-27T15:30",
+        "className": "onderwijs",
+        "id": 21,
+        "title": "E701054"
+    }, {
+        "allDay": false,
+        "editable": false,
+        "start": "2020-03-05T13:30",
+        "tooltip": "<span class='tijdstip'>13:30-15:30<\/span><br/><span class='activiteittype'>Onderwijs<\/span><br/><span class='cursusnaam'>Duurzame energietechnieken<\/span><br/><span class='cursuscode'>E701054<\/span><br/>groep: -<br/>Johan Lauwaert<br/>Auditorium A (via Plateaustr.), Jozef Plateaustraat 22, Gent, 18.01 - Plateau-Rozier, Campus Boekentoren<br/>Van 13h30 tot 15h15<br/>",
+        "description": "<span class='activiteittype'>Onderwijs<\/span><br/><span class='cursusnaam'>Duurzame energietechnieken<\/span><br/><span class='cursuscode'>E701054<\/span><br/>groep: -<br/>Johan Lauwaert<br/>Auditorium A (via Plateaustr.), Jozef Plateaustraat 22, Gent, 18.01 - Plateau-Rozier, Campus Boekentoren<br/>Van 13h30 tot 15h15<br/>",
+        "end": "2020-03-05T15:30",
+        "className": "onderwijs",
+        "id": 22,
+        "title": "E701054"
+    }, {
+        "allDay": false,
+        "editable": false,
+        "start": "2020-02-25T14:30",
+        "tooltip": "<span class='tijdstip'>14:30-15:30<\/span><br/><span class='activiteittype'>Onderwijs<\/span><br/><span class='cursusnaam'>Duurzame energietechnieken<\/span><br/><span class='cursuscode'>E701054<\/span><br/>groep: -<br/>Johan Lauwaert<br/>Auditorium 1, K.L. Ledeganckstraat 35, Gent, 04.09 - L9 1ste fase, Campus Ledeganck<br/>Van 14h15 tot 16h15<br/>",
+        "description": "<span class='activiteittype'>Onderwijs<\/span><br/><span class='cursusnaam'>Duurzame energietechnieken<\/span><br/><span class='cursuscode'>E701054<\/span><br/>groep: -<br/>Johan Lauwaert<br/>Auditorium 1, K.L. Ledeganckstraat 35, Gent, 04.09 - L9 1ste fase, Campus Ledeganck<br/>Van 14h15 tot 16h15<br/>",
+        "end": "2020-02-25T15:30",
+        "className": "onderwijs",
+        "id": 23,
+        "title": "E701054"
+    }, {
+        "allDay": false,
+        "editable": false,
+        "start": "2020-02-25T15:45",
+        "tooltip": "<span class='tijdstip'>15:45-16:45<\/span><br/><span class='activiteittype'>Onderwijs<\/span><br/><span class='cursusnaam'>Duurzame energietechnieken<\/span><br/><span class='cursuscode'>E701054<\/span><br/>groep: -<br/>Johan Lauwaert<br/>Auditorium 1, K.L. Ledeganckstraat 35, Gent, 04.09 - L9 1ste fase, Campus Ledeganck<br/>Van 14h15 tot 16h15<br/>",
+        "description": "<span class='activiteittype'>Onderwijs<\/span><br/><span class='cursusnaam'>Duurzame energietechnieken<\/span><br/><span class='cursuscode'>E701054<\/span><br/>groep: -<br/>Johan Lauwaert<br/>Auditorium 1, K.L. Ledeganckstraat 35, Gent, 04.09 - L9 1ste fase, Campus Ledeganck<br/>Van 14h15 tot 16h15<br/>",
+        "end": "2020-02-25T16:45",
+        "className": "onderwijs",
+        "id": 24,
+        "title": "E701054"
+    }, {
+        "allDay": false,
+        "editable": false,
+        "start": "2020-02-10T10:30",
+        "tooltip": "<span class='tijdstip'>10:30-11:30<\/span><br/><span class='activiteittype'>Onderwijs<\/span><br/><span class='cursusnaam'>Mechanica<\/span><br/><span class='cursuscode'>E701030<\/span><br/>groep: -<br/>Tom Claessens<br/>Auditorium 1, K.L. Ledeganckstraat 35, Gent, 04.09 - L9 1ste fase, Campus Ledeganck<br/>Van 10h tot 11h30<br/>",
+        "description": "<span class='activiteittype'>Onderwijs<\/span><br/><span class='cursusnaam'>Mechanica<\/span><br/><span class='cursuscode'>E701030<\/span><br/>groep: -<br/>Tom Claessens<br/>Auditorium 1, K.L. Ledeganckstraat 35, Gent, 04.09 - L9 1ste fase, Campus Ledeganck<br/>Van 10h tot 11h30<br/>",
+        "end": "2020-02-10T11:30",
+        "className": "onderwijs",
+        "id": 25,
+        "title": "E701030"
+    }, {
+        "allDay": false,
+        "editable": false,
+        "start": "2020-02-17T10:30",
+        "tooltip": "<span class='tijdstip'>10:30-11:30<\/span><br/><span class='activiteittype'>Onderwijs<\/span><br/><span class='cursusnaam'>Mechanica<\/span><br/><span class='cursuscode'>E701030<\/span><br/>groep: -<br/>Tom Claessens<br/>Auditorium 1, K.L. Ledeganckstraat 35, Gent, 04.09 - L9 1ste fase, Campus Ledeganck<br/>Van 10h tot 11h30<br/>",
+        "description": "<span class='activiteittype'>Onderwijs<\/span><br/><span class='cursusnaam'>Mechanica<\/span><br/><span class='cursuscode'>E701030<\/span><br/>groep: -<br/>Tom Claessens<br/>Auditorium 1, K.L. Ledeganckstraat 35, Gent, 04.09 - L9 1ste fase, Campus Ledeganck<br/>Van 10h tot 11h30<br/>",
+        "end": "2020-02-17T11:30",
+        "className": "onderwijs",
+        "id": 26,
+        "title": "E701030"
+    }, {
+        "allDay": false,
+        "editable": false,
+        "start": "2020-02-24T10:30",
+        "tooltip": "<span class='tijdstip'>10:30-11:30<\/span><br/><span class='activiteittype'>Onderwijs<\/span><br/><span class='cursusnaam'>Mechanica<\/span><br/><span class='cursuscode'>E701030<\/span><br/>groep: -<br/>Tom Claessens<br/>Auditorium 1, K.L. Ledeganckstraat 35, Gent, 04.09 - L9 1ste fase, Campus Ledeganck<br/>Van 10h tot 11h30<br/>",
+        "description": "<span class='activiteittype'>Onderwijs<\/span><br/><span class='cursusnaam'>Mechanica<\/span><br/><span class='cursuscode'>E701030<\/span><br/>groep: -<br/>Tom Claessens<br/>Auditorium 1, K.L. Ledeganckstraat 35, Gent, 04.09 - L9 1ste fase, Campus Ledeganck<br/>Van 10h tot 11h30<br/>",
+        "end": "2020-02-24T11:30",
+        "className": "onderwijs",
+        "id": 27,
+        "title": "E701030"
+    }, {
+        "allDay": false,
+        "editable": false,
+        "start": "2020-03-02T10:30",
+        "tooltip": "<span class='tijdstip'>10:30-11:30<\/span><br/><span class='activiteittype'>Onderwijs<\/span><br/><span class='cursusnaam'>Mechanica<\/span><br/><span class='cursuscode'>E701030<\/span><br/>groep: -<br/>Tom Claessens<br/>Auditorium 1, K.L. Ledeganckstraat 35, Gent, 04.09 - L9 1ste fase, Campus Ledeganck<br/>Van 10h tot 11h30<br/>",
+        "description": "<span class='activiteittype'>Onderwijs<\/span><br/><span class='cursusnaam'>Mechanica<\/span><br/><span class='cursuscode'>E701030<\/span><br/>groep: -<br/>Tom Claessens<br/>Auditorium 1, K.L. Ledeganckstraat 35, Gent, 04.09 - L9 1ste fase, Campus Ledeganck<br/>Van 10h tot 11h30<br/>",
+        "end": "2020-03-02T11:30",
+        "className": "onderwijs",
+        "id": 28,
+        "title": "E701030"
+    }, {
+        "allDay": false,
+        "editable": false,
+        "start": "2020-03-09T10:30",
+        "tooltip": "<span class='tijdstip'>10:30-11:30<\/span><br/><span class='activiteittype'>Onderwijs<\/span><br/><span class='cursusnaam'>Mechanica<\/span><br/><span class='cursuscode'>E701030<\/span><br/>groep: -<br/>Tom Claessens<br/>Auditorium 1, K.L. Ledeganckstraat 35, Gent, 04.09 - L9 1ste fase, Campus Ledeganck<br/>Van 10h tot 11h30<br/>",
+        "description": "<span class='activiteittype'>Onderwijs<\/span><br/><span class='cursusnaam'>Mechanica<\/span><br/><span class='cursuscode'>E701030<\/span><br/>groep: -<br/>Tom Claessens<br/>Auditorium 1, K.L. Ledeganckstraat 35, Gent, 04.09 - L9 1ste fase, Campus Ledeganck<br/>Van 10h tot 11h30<br/>",
+        "end": "2020-03-09T11:30",
+        "className": "onderwijs",
+        "id": 29,
+        "title": "E701030"
+    }, {
+        "allDay": false,
+        "editable": false,
+        "start": "2020-02-14T13:30",
+        "tooltip": "<span class='tijdstip'>13:30-15:30<\/span><br/><span class='activiteittype'>Onderwijs<\/span><br/><span class='cursusnaam'>Ingenieursproject<\/span><br/><span class='cursuscode'>E701052<\/span><br/>groep: 10-18<br/>Kathleen Gekiere<br/>GSCHB.4.005, Valentin Vaerwyckweg 1, Gent, 41.02 - Gebouw B, Campus Schoonmeersen<br/>Bouwkunde<br/>",
+        "description": "<span class='activiteittype'>Onderwijs<\/span><br/><span class='cursusnaam'>Ingenieursproject<\/span><br/><span class='cursuscode'>E701052<\/span><br/>groep: 10-18<br/>Kathleen Gekiere<br/>GSCHB.4.005, Valentin Vaerwyckweg 1, Gent, 41.02 - Gebouw B, Campus Schoonmeersen<br/>Bouwkunde<br/>",
+        "end": "2020-02-14T15:30",
+        "className": "onderwijs",
+        "id": 30,
+        "title": "E701052"
+    }, {
+        "allDay": false,
+        "editable": false,
+        "start": "2020-02-14T15:45",
+        "tooltip": "<span class='tijdstip'>15:45-17:45<\/span><br/><span class='activiteittype'>Onderwijs<\/span><br/><span class='cursusnaam'>Ingenieursproject<\/span><br/><span class='cursuscode'>E701052<\/span><br/>groep: 10-18<br/>Kathleen Gekiere<br/>GSCHB.4.005, Valentin Vaerwyckweg 1, Gent, 41.02 - Gebouw B, Campus Schoonmeersen<br/>Bouwkunde<br/>",
+        "description": "<span class='activiteittype'>Onderwijs<\/span><br/><span class='cursusnaam'>Ingenieursproject<\/span><br/><span class='cursuscode'>E701052<\/span><br/>groep: 10-18<br/>Kathleen Gekiere<br/>GSCHB.4.005, Valentin Vaerwyckweg 1, Gent, 41.02 - Gebouw B, Campus Schoonmeersen<br/>Bouwkunde<br/>",
+        "end": "2020-02-14T17:45",
+        "className": "onderwijs",
+        "id": 31,
+        "title": "E701052"
+    }, {
+        "allDay": false,
+        "editable": false,
+        "start": "2020-02-21T13:30",
+        "tooltip": "<span class='tijdstip'>13:30-15:30<\/span><br/><span class='activiteittype'>Onderwijs<\/span><br/><span class='cursusnaam'>Ingenieursproject<\/span><br/><span class='cursuscode'>E701052<\/span><br/>groep: 10-18<br/>Kathleen Gekiere<br/>GSCHB.4.005, Valentin Vaerwyckweg 1, Gent, 41.02 - Gebouw B, Campus Schoonmeersen<br/>Bouwkunde<br/>",
+        "description": "<span class='activiteittype'>Onderwijs<\/span><br/><span class='cursusnaam'>Ingenieursproject<\/span><br/><span class='cursuscode'>E701052<\/span><br/>groep: 10-18<br/>Kathleen Gekiere<br/>GSCHB.4.005, Valentin Vaerwyckweg 1, Gent, 41.02 - Gebouw B, Campus Schoonmeersen<br/>Bouwkunde<br/>",
+        "end": "2020-02-21T15:30",
+        "className": "onderwijs",
+        "id": 32,
+        "title": "E701052"
+    }, {
+        "allDay": false,
+        "editable": false,
+        "start": "2020-02-21T15:45",
+        "tooltip": "<span class='tijdstip'>15:45-17:45<\/span><br/><span class='activiteittype'>Onderwijs<\/span><br/><span class='cursusnaam'>Ingenieursproject<\/span><br/><span class='cursuscode'>E701052<\/span><br/>groep: 10-18<br/>Kathleen Gekiere<br/>GSCHB.4.005, Valentin Vaerwyckweg 1, Gent, 41.02 - Gebouw B, Campus Schoonmeersen<br/>Bouwkunde<br/>",
+        "description": "<span class='activiteittype'>Onderwijs<\/span><br/><span class='cursusnaam'>Ingenieursproject<\/span><br/><span class='cursuscode'>E701052<\/span><br/>groep: 10-18<br/>Kathleen Gekiere<br/>GSCHB.4.005, Valentin Vaerwyckweg 1, Gent, 41.02 - Gebouw B, Campus Schoonmeersen<br/>Bouwkunde<br/>",
+        "end": "2020-02-21T17:45",
+        "className": "onderwijs",
+        "id": 33,
+        "title": "E701052"
+    }, {
+        "allDay": false,
+        "editable": false,
+        "start": "2020-03-06T13:30",
+        "tooltip": "<span class='tijdstip'>13:30-15:30<\/span><br/><span class='activiteittype'>Onderwijs<\/span><br/><span class='cursusnaam'>Ingenieursproject<\/span><br/><span class='cursuscode'>E701052<\/span><br/>groep: 10-18<br/>Kathleen Gekiere<br/>GSCHB.4.005, Valentin Vaerwyckweg 1, Gent, 41.02 - Gebouw B, Campus Schoonmeersen<br/>Bouwkunde<br/>",
+        "description": "<span class='activiteittype'>Onderwijs<\/span><br/><span class='cursusnaam'>Ingenieursproject<\/span><br/><span class='cursuscode'>E701052<\/span><br/>groep: 10-18<br/>Kathleen Gekiere<br/>GSCHB.4.005, Valentin Vaerwyckweg 1, Gent, 41.02 - Gebouw B, Campus Schoonmeersen<br/>Bouwkunde<br/>",
+        "end": "2020-03-06T15:30",
+        "className": "onderwijs",
+        "id": 34,
+        "title": "E701052"
+    }, {
+        "allDay": false,
+        "editable": false,
+        "start": "2020-03-06T15:45",
+        "tooltip": "<span class='tijdstip'>15:45-17:45<\/span><br/><span class='activiteittype'>Onderwijs<\/span><br/><span class='cursusnaam'>Ingenieursproject<\/span><br/><span class='cursuscode'>E701052<\/span><br/>groep: 10-18<br/>Kathleen Gekiere<br/>GSCHB.4.005, Valentin Vaerwyckweg 1, Gent, 41.02 - Gebouw B, Campus Schoonmeersen<br/>Bouwkunde<br/>",
+        "description": "<span class='activiteittype'>Onderwijs<\/span><br/><span class='cursusnaam'>Ingenieursproject<\/span><br/><span class='cursuscode'>E701052<\/span><br/>groep: 10-18<br/>Kathleen Gekiere<br/>GSCHB.4.005, Valentin Vaerwyckweg 1, Gent, 41.02 - Gebouw B, Campus Schoonmeersen<br/>Bouwkunde<br/>",
+        "end": "2020-03-06T17:45",
+        "className": "onderwijs",
+        "id": 35,
+        "title": "E701052"
+    }, {
+        "allDay": false,
+        "editable": false,
+        "start": "2020-02-14T13:30",
+        "tooltip": "<span class='tijdstip'>13:30-15:30<\/span><br/><span class='activiteittype'>Onderwijs<\/span><br/><span class='cursusnaam'>Ingenieursproject<\/span><br/><span class='cursuscode'>E701052<\/span><br/>groep: 10-18<br/>Kathleen Gekiere<br/>GSCHB.4.017, Valentin Vaerwyckweg 1, Gent, 41.02 - Gebouw B, Campus Schoonmeersen<br/>Elektriciteit<br/>",
+        "description": "<span class='activiteittype'>Onderwijs<\/span><br/><span class='cursusnaam'>Ingenieursproject<\/span><br/><span class='cursuscode'>E701052<\/span><br/>groep: 10-18<br/>Kathleen Gekiere<br/>GSCHB.4.017, Valentin Vaerwyckweg 1, Gent, 41.02 - Gebouw B, Campus Schoonmeersen<br/>Elektriciteit<br/>",
+        "end": "2020-02-14T15:30",
+        "className": "onderwijs",
+        "id": 36,
+        "title": "E701052"
+    }, {
+        "allDay": false,
+        "editable": false,
+        "start": "2020-02-14T15:45",
+        "tooltip": "<span class='tijdstip'>15:45-17:45<\/span><br/><span class='activiteittype'>Onderwijs<\/span><br/><span class='cursusnaam'>Ingenieursproject<\/span><br/><span class='cursuscode'>E701052<\/span><br/>groep: 10-18<br/>Kathleen Gekiere<br/>GSCHB.4.017, Valentin Vaerwyckweg 1, Gent, 41.02 - Gebouw B, Campus Schoonmeersen<br/>Elektriciteit<br/>",
+        "description": "<span class='activiteittype'>Onderwijs<\/span><br/><span class='cursusnaam'>Ingenieursproject<\/span><br/><span class='cursuscode'>E701052<\/span><br/>groep: 10-18<br/>Kathleen Gekiere<br/>GSCHB.4.017, Valentin Vaerwyckweg 1, Gent, 41.02 - Gebouw B, Campus Schoonmeersen<br/>Elektriciteit<br/>",
+        "end": "2020-02-14T17:45",
+        "className": "onderwijs",
+        "id": 37,
+        "title": "E701052"
+    }, {
+        "allDay": false,
+        "editable": false,
+        "start": "2020-02-21T13:30",
+        "tooltip": "<span class='tijdstip'>13:30-15:30<\/span><br/><span class='activiteittype'>Onderwijs<\/span><br/><span class='cursusnaam'>Ingenieursproject<\/span><br/><span class='cursuscode'>E701052<\/span><br/>groep: 10-18<br/>Kathleen Gekiere<br/>GSCHB.4.017, Valentin Vaerwyckweg 1, Gent, 41.02 - Gebouw B, Campus Schoonmeersen<br/>Elektriciteit<br/>",
+        "description": "<span class='activiteittype'>Onderwijs<\/span><br/><span class='cursusnaam'>Ingenieursproject<\/span><br/><span class='cursuscode'>E701052<\/span><br/>groep: 10-18<br/>Kathleen Gekiere<br/>GSCHB.4.017, Valentin Vaerwyckweg 1, Gent, 41.02 - Gebouw B, Campus Schoonmeersen<br/>Elektriciteit<br/>",
+        "end": "2020-02-21T15:30",
+        "className": "onderwijs",
+        "id": 38,
+        "title": "E701052"
+    }, {
+        "allDay": false,
+        "editable": false,
+        "start": "2020-02-21T15:45",
+        "tooltip": "<span class='tijdstip'>15:45-17:45<\/span><br/><span class='activiteittype'>Onderwijs<\/span><br/><span class='cursusnaam'>Ingenieursproject<\/span><br/><span class='cursuscode'>E701052<\/span><br/>groep: 10-18<br/>Kathleen Gekiere<br/>GSCHB.4.017, Valentin Vaerwyckweg 1, Gent, 41.02 - Gebouw B, Campus Schoonmeersen<br/>Elektriciteit<br/>",
+        "description": "<span class='activiteittype'>Onderwijs<\/span><br/><span class='cursusnaam'>Ingenieursproject<\/span><br/><span class='cursuscode'>E701052<\/span><br/>groep: 10-18<br/>Kathleen Gekiere<br/>GSCHB.4.017, Valentin Vaerwyckweg 1, Gent, 41.02 - Gebouw B, Campus Schoonmeersen<br/>Elektriciteit<br/>",
+        "end": "2020-02-21T17:45",
+        "className": "onderwijs",
+        "id": 39,
+        "title": "E701052"
+    }, {
+        "allDay": false,
+        "editable": false,
+        "start": "2020-03-06T13:30",
+        "tooltip": "<span class='tijdstip'>13:30-15:30<\/span><br/><span class='activiteittype'>Onderwijs<\/span><br/><span class='cursusnaam'>Ingenieursproject<\/span><br/><span class='cursuscode'>E701052<\/span><br/>groep: 10-18<br/>Kathleen Gekiere<br/>GSCHB.4.017, Valentin Vaerwyckweg 1, Gent, 41.02 - Gebouw B, Campus Schoonmeersen<br/>Elektriciteit<br/>",
+        "description": "<span class='activiteittype'>Onderwijs<\/span><br/><span class='cursusnaam'>Ingenieursproject<\/span><br/><span class='cursuscode'>E701052<\/span><br/>groep: 10-18<br/>Kathleen Gekiere<br/>GSCHB.4.017, Valentin Vaerwyckweg 1, Gent, 41.02 - Gebouw B, Campus Schoonmeersen<br/>Elektriciteit<br/>",
+        "end": "2020-03-06T15:30",
+        "className": "onderwijs",
+        "id": 40,
+        "title": "E701052"
+    }, {
+        "allDay": false,
+        "editable": false,
+        "start": "2020-03-06T15:45",
+        "tooltip": "<span class='tijdstip'>15:45-17:45<\/span><br/><span class='activiteittype'>Onderwijs<\/span><br/><span class='cursusnaam'>Ingenieursproject<\/span><br/><span class='cursuscode'>E701052<\/span><br/>groep: 10-18<br/>Kathleen Gekiere<br/>GSCHB.4.017, Valentin Vaerwyckweg 1, Gent, 41.02 - Gebouw B, Campus Schoonmeersen<br/>Elektriciteit<br/>",
+        "description": "<span class='activiteittype'>Onderwijs<\/span><br/><span class='cursusnaam'>Ingenieursproject<\/span><br/><span class='cursuscode'>E701052<\/span><br/>groep: 10-18<br/>Kathleen Gekiere<br/>GSCHB.4.017, Valentin Vaerwyckweg 1, Gent, 41.02 - Gebouw B, Campus Schoonmeersen<br/>Elektriciteit<br/>",
+        "end": "2020-03-06T17:45",
+        "className": "onderwijs",
+        "id": 41,
+        "title": "E701052"
+    }, {
+        "allDay": false,
+        "editable": false,
+        "start": "2020-02-14T13:30",
+        "tooltip": "<span class='tijdstip'>13:30-15:30<\/span><br/><span class='activiteittype'>Onderwijs<\/span><br/><span class='cursusnaam'>Ingenieursproject<\/span><br/><span class='cursuscode'>E701052<\/span><br/>groep: 10-18<br/>Kathleen Gekiere<br/>GSCHP.1.105, Valentin Vaerwyckweg  1, Gent, 41.05 - Gebouw P, Campus Schoonmeersen<br/>Me<br/>",
+        "description": "<span class='activiteittype'>Onderwijs<\/span><br/><span class='cursusnaam'>Ingenieursproject<\/span><br/><span class='cursuscode'>E701052<\/span><br/>groep: 10-18<br/>Kathleen Gekiere<br/>GSCHP.1.105, Valentin Vaerwyckweg  1, Gent, 41.05 - Gebouw P, Campus Schoonmeersen<br/>Me<br/>",
+        "end": "2020-02-14T15:30",
+        "className": "onderwijs",
+        "id": 42,
+        "title": "E701052"
+    }, {
+        "allDay": false,
+        "editable": false,
+        "start": "2020-02-14T15:45",
+        "tooltip": "<span class='tijdstip'>15:45-17:45<\/span><br/><span class='activiteittype'>Onderwijs<\/span><br/><span class='cursusnaam'>Ingenieursproject<\/span><br/><span class='cursuscode'>E701052<\/span><br/>groep: 10-18<br/>Kathleen Gekiere<br/>GSCHP.1.105, Valentin Vaerwyckweg  1, Gent, 41.05 - Gebouw P, Campus Schoonmeersen<br/>Me<br/>",
+        "description": "<span class='activiteittype'>Onderwijs<\/span><br/><span class='cursusnaam'>Ingenieursproject<\/span><br/><span class='cursuscode'>E701052<\/span><br/>groep: 10-18<br/>Kathleen Gekiere<br/>GSCHP.1.105, Valentin Vaerwyckweg  1, Gent, 41.05 - Gebouw P, Campus Schoonmeersen<br/>Me<br/>",
+        "end": "2020-02-14T17:45",
+        "className": "onderwijs",
+        "id": 43,
+        "title": "E701052"
+    }, {
+        "allDay": false,
+        "editable": false,
+        "start": "2020-02-21T13:30",
+        "tooltip": "<span class='tijdstip'>13:30-15:30<\/span><br/><span class='activiteittype'>Onderwijs<\/span><br/><span class='cursusnaam'>Ingenieursproject<\/span><br/><span class='cursuscode'>E701052<\/span><br/>groep: 10-18<br/>Kathleen Gekiere<br/>GSCHP.1.105, Valentin Vaerwyckweg  1, Gent, 41.05 - Gebouw P, Campus Schoonmeersen<br/>Me<br/>",
+        "description": "<span class='activiteittype'>Onderwijs<\/span><br/><span class='cursusnaam'>Ingenieursproject<\/span><br/><span class='cursuscode'>E701052<\/span><br/>groep: 10-18<br/>Kathleen Gekiere<br/>GSCHP.1.105, Valentin Vaerwyckweg  1, Gent, 41.05 - Gebouw P, Campus Schoonmeersen<br/>Me<br/>",
+        "end": "2020-02-21T15:30",
+        "className": "onderwijs",
+        "id": 44,
+        "title": "E701052"
+    }, {
+        "allDay": false,
+        "editable": false,
+        "start": "2020-02-21T15:45",
+        "tooltip": "<span class='tijdstip'>15:45-17:45<\/span><br/><span class='activiteittype'>Onderwijs<\/span><br/><span class='cursusnaam'>Ingenieursproject<\/span><br/><span class='cursuscode'>E701052<\/span><br/>groep: 10-18<br/>Kathleen Gekiere<br/>GSCHP.1.105, Valentin Vaerwyckweg  1, Gent, 41.05 - Gebouw P, Campus Schoonmeersen<br/>Me<br/>",
+        "description": "<span class='activiteittype'>Onderwijs<\/span><br/><span class='cursusnaam'>Ingenieursproject<\/span><br/><span class='cursuscode'>E701052<\/span><br/>groep: 10-18<br/>Kathleen Gekiere<br/>GSCHP.1.105, Valentin Vaerwyckweg  1, Gent, 41.05 - Gebouw P, Campus Schoonmeersen<br/>Me<br/>",
+        "end": "2020-02-21T17:45",
+        "className": "onderwijs",
+        "id": 45,
+        "title": "E701052"
+    }, {
+        "allDay": false,
+        "editable": false,
+        "start": "2020-03-06T13:30",
+        "tooltip": "<span class='tijdstip'>13:30-15:30<\/span><br/><span class='activiteittype'>Onderwijs<\/span><br/><span class='cursusnaam'>Ingenieursproject<\/span><br/><span class='cursuscode'>E701052<\/span><br/>groep: 10-18<br/>Kathleen Gekiere<br/>GSCHP.1.105, Valentin Vaerwyckweg  1, Gent, 41.05 - Gebouw P, Campus Schoonmeersen<br/>Me<br/>",
+        "description": "<span class='activiteittype'>Onderwijs<\/span><br/><span class='cursusnaam'>Ingenieursproject<\/span><br/><span class='cursuscode'>E701052<\/span><br/>groep: 10-18<br/>Kathleen Gekiere<br/>GSCHP.1.105, Valentin Vaerwyckweg  1, Gent, 41.05 - Gebouw P, Campus Schoonmeersen<br/>Me<br/>",
+        "end": "2020-03-06T15:30",
+        "className": "onderwijs",
+        "id": 46,
+        "title": "E701052"
+    }, {
+        "allDay": false,
+        "editable": false,
+        "start": "2020-03-06T15:45",
+        "tooltip": "<span class='tijdstip'>15:45-17:45<\/span><br/><span class='activiteittype'>Onderwijs<\/span><br/><span class='cursusnaam'>Ingenieursproject<\/span><br/><span class='cursuscode'>E701052<\/span><br/>groep: 10-18<br/>Kathleen Gekiere<br/>GSCHP.1.105, Valentin Vaerwyckweg  1, Gent, 41.05 - Gebouw P, Campus Schoonmeersen<br/>Me<br/>",
+        "description": "<span class='activiteittype'>Onderwijs<\/span><br/><span class='cursusnaam'>Ingenieursproject<\/span><br/><span class='cursuscode'>E701052<\/span><br/>groep: 10-18<br/>Kathleen Gekiere<br/>GSCHP.1.105, Valentin Vaerwyckweg  1, Gent, 41.05 - Gebouw P, Campus Schoonmeersen<br/>Me<br/>",
+        "end": "2020-03-06T17:45",
+        "className": "onderwijs",
+        "id": 47,
+        "title": "E701052"
+    }, {
+        "allDay": false,
+        "editable": false,
+        "start": "2020-02-14T13:30",
+        "tooltip": "<span class='tijdstip'>13:30-15:30<\/span><br/><span class='activiteittype'>Onderwijs<\/span><br/><span class='cursusnaam'>Ingenieursproject<\/span><br/><span class='cursuscode'>E701052<\/span><br/>groep: 10-18<br/>Kathleen Gekiere<br/>PC-lokaal GSCHB.2.033, Valentin Vaerwyckweg 1, Gent, 41.02 - Gebouw B, Campus Schoonmeersen<br/>Inf<br/>",
+        "description": "<span class='activiteittype'>Onderwijs<\/span><br/><span class='cursusnaam'>Ingenieursproject<\/span><br/><span class='cursuscode'>E701052<\/span><br/>groep: 10-18<br/>Kathleen Gekiere<br/>PC-lokaal GSCHB.2.033, Valentin Vaerwyckweg 1, Gent, 41.02 - Gebouw B, Campus Schoonmeersen<br/>Inf<br/>",
+        "end": "2020-02-14T15:30",
+        "className": "onderwijs",
+        "id": 48,
+        "title": "E701052"
+    }, {
+        "allDay": false,
+        "editable": false,
+        "start": "2020-02-14T15:45",
+        "tooltip": "<span class='tijdstip'>15:45-17:45<\/span><br/><span class='activiteittype'>Onderwijs<\/span><br/><span class='cursusnaam'>Ingenieursproject<\/span><br/><span class='cursuscode'>E701052<\/span><br/>groep: 10-18<br/>Kathleen Gekiere<br/>PC-lokaal GSCHB.2.033, Valentin Vaerwyckweg 1, Gent, 41.02 - Gebouw B, Campus Schoonmeersen<br/>Inf<br/>",
+        "description": "<span class='activiteittype'>Onderwijs<\/span><br/><span class='cursusnaam'>Ingenieursproject<\/span><br/><span class='cursuscode'>E701052<\/span><br/>groep: 10-18<br/>Kathleen Gekiere<br/>PC-lokaal GSCHB.2.033, Valentin Vaerwyckweg 1, Gent, 41.02 - Gebouw B, Campus Schoonmeersen<br/>Inf<br/>",
+        "end": "2020-02-14T17:45",
+        "className": "onderwijs",
+        "id": 49,
+        "title": "E701052"
+    }, {
+        "allDay": false,
+        "editable": false,
+        "start": "2020-02-21T13:30",
+        "tooltip": "<span class='tijdstip'>13:30-15:30<\/span><br/><span class='activiteittype'>Onderwijs<\/span><br/><span class='cursusnaam'>Ingenieursproject<\/span><br/><span class='cursuscode'>E701052<\/span><br/>groep: 10-18<br/>Kathleen Gekiere<br/>PC-lokaal GSCHB.2.033, Valentin Vaerwyckweg 1, Gent, 41.02 - Gebouw B, Campus Schoonmeersen<br/>Inf<br/>",
+        "description": "<span class='activiteittype'>Onderwijs<\/span><br/><span class='cursusnaam'>Ingenieursproject<\/span><br/><span class='cursuscode'>E701052<\/span><br/>groep: 10-18<br/>Kathleen Gekiere<br/>PC-lokaal GSCHB.2.033, Valentin Vaerwyckweg 1, Gent, 41.02 - Gebouw B, Campus Schoonmeersen<br/>Inf<br/>",
+        "end": "2020-02-21T15:30",
+        "className": "onderwijs",
+        "id": 50,
+        "title": "E701052"
+    }, {
+        "allDay": false,
+        "editable": false,
+        "start": "2020-02-21T15:45",
+        "tooltip": "<span class='tijdstip'>15:45-17:45<\/span><br/><span class='activiteittype'>Onderwijs<\/span><br/><span class='cursusnaam'>Ingenieursproject<\/span><br/><span class='cursuscode'>E701052<\/span><br/>groep: 10-18<br/>Kathleen Gekiere<br/>PC-lokaal GSCHB.2.033, Valentin Vaerwyckweg 1, Gent, 41.02 - Gebouw B, Campus Schoonmeersen<br/>Inf<br/>",
+        "description": "<span class='activiteittype'>Onderwijs<\/span><br/><span class='cursusnaam'>Ingenieursproject<\/span><br/><span class='cursuscode'>E701052<\/span><br/>groep: 10-18<br/>Kathleen Gekiere<br/>PC-lokaal GSCHB.2.033, Valentin Vaerwyckweg 1, Gent, 41.02 - Gebouw B, Campus Schoonmeersen<br/>Inf<br/>",
+        "end": "2020-02-21T17:45",
+        "className": "onderwijs",
+        "id": 51,
+        "title": "E701052"
+    }, {
+        "allDay": false,
+        "editable": false,
+        "start": "2020-03-06T13:30",
+        "tooltip": "<span class='tijdstip'>13:30-15:30<\/span><br/><span class='activiteittype'>Onderwijs<\/span><br/><span class='cursusnaam'>Ingenieursproject<\/span><br/><span class='cursuscode'>E701052<\/span><br/>groep: 10-18<br/>Kathleen Gekiere<br/>PC-lokaal GSCHB.2.033, Valentin Vaerwyckweg 1, Gent, 41.02 - Gebouw B, Campus Schoonmeersen<br/>Inf<br/>",
+        "description": "<span class='activiteittype'>Onderwijs<\/span><br/><span class='cursusnaam'>Ingenieursproject<\/span><br/><span class='cursuscode'>E701052<\/span><br/>groep: 10-18<br/>Kathleen Gekiere<br/>PC-lokaal GSCHB.2.033, Valentin Vaerwyckweg 1, Gent, 41.02 - Gebouw B, Campus Schoonmeersen<br/>Inf<br/>",
+        "end": "2020-03-06T15:30",
+        "className": "onderwijs",
+        "id": 52,
+        "title": "E701052"
+    }, {
+        "allDay": false,
+        "editable": false,
+        "start": "2020-03-06T15:45",
+        "tooltip": "<span class='tijdstip'>15:45-17:45<\/span><br/><span class='activiteittype'>Onderwijs<\/span><br/><span class='cursusnaam'>Ingenieursproject<\/span><br/><span class='cursuscode'>E701052<\/span><br/>groep: 10-18<br/>Kathleen Gekiere<br/>PC-lokaal GSCHB.2.033, Valentin Vaerwyckweg 1, Gent, 41.02 - Gebouw B, Campus Schoonmeersen<br/>Inf<br/>",
+        "description": "<span class='activiteittype'>Onderwijs<\/span><br/><span class='cursusnaam'>Ingenieursproject<\/span><br/><span class='cursuscode'>E701052<\/span><br/>groep: 10-18<br/>Kathleen Gekiere<br/>PC-lokaal GSCHB.2.033, Valentin Vaerwyckweg 1, Gent, 41.02 - Gebouw B, Campus Schoonmeersen<br/>Inf<br/>",
+        "end": "2020-03-06T17:45",
+        "className": "onderwijs",
+        "id": 53,
+        "title": "E701052"
+    }, {
+        "allDay": false,
+        "editable": false,
+        "start": "2020-02-14T13:30",
+        "tooltip": "<span class='tijdstip'>13:30-15:30<\/span><br/><span class='activiteittype'>Onderwijs<\/span><br/><span class='cursusnaam'>Ingenieursproject<\/span><br/><span class='cursuscode'>E701052<\/span><br/>groep: 10-18<br/>Kathleen Gekiere<br/>Practicumzaal 2.1, Technologiepark-Zwijnaarde 126, Zwijnaarde, 126  iGent, Campus Ardoyen<br/>Elektronica<br/>",
+        "description": "<span class='activiteittype'>Onderwijs<\/span><br/><span class='cursusnaam'>Ingenieursproject<\/span><br/><span class='cursuscode'>E701052<\/span><br/>groep: 10-18<br/>Kathleen Gekiere<br/>Practicumzaal 2.1, Technologiepark-Zwijnaarde 126, Zwijnaarde, 126  iGent, Campus Ardoyen<br/>Elektronica<br/>",
+        "end": "2020-02-14T15:30",
+        "className": "onderwijs",
+        "id": 54,
+        "title": "E701052"
+    }, {
+        "allDay": false,
+        "editable": false,
+        "start": "2020-02-14T15:45",
+        "tooltip": "<span class='tijdstip'>15:45-17:45<\/span><br/><span class='activiteittype'>Onderwijs<\/span><br/><span class='cursusnaam'>Ingenieursproject<\/span><br/><span class='cursuscode'>E701052<\/span><br/>groep: 10-18<br/>Kathleen Gekiere<br/>Practicumzaal 2.1, Technologiepark-Zwijnaarde 126, Zwijnaarde, 126  iGent, Campus Ardoyen<br/>Elektronica<br/>",
+        "description": "<span class='activiteittype'>Onderwijs<\/span><br/><span class='cursusnaam'>Ingenieursproject<\/span><br/><span class='cursuscode'>E701052<\/span><br/>groep: 10-18<br/>Kathleen Gekiere<br/>Practicumzaal 2.1, Technologiepark-Zwijnaarde 126, Zwijnaarde, 126  iGent, Campus Ardoyen<br/>Elektronica<br/>",
+        "end": "2020-02-14T17:45",
+        "className": "onderwijs",
+        "id": 55,
+        "title": "E701052"
+    }, {
+        "allDay": false,
+        "editable": false,
+        "start": "2020-02-21T13:30",
+        "tooltip": "<span class='tijdstip'>13:30-15:30<\/span><br/><span class='activiteittype'>Onderwijs<\/span><br/><span class='cursusnaam'>Ingenieursproject<\/span><br/><span class='cursuscode'>E701052<\/span><br/>groep: 10-18<br/>Kathleen Gekiere<br/>Practicumzaal 2.1, Technologiepark-Zwijnaarde 126, Zwijnaarde, 126  iGent, Campus Ardoyen<br/>Elektronica<br/>",
+        "description": "<span class='activiteittype'>Onderwijs<\/span><br/><span class='cursusnaam'>Ingenieursproject<\/span><br/><span class='cursuscode'>E701052<\/span><br/>groep: 10-18<br/>Kathleen Gekiere<br/>Practicumzaal 2.1, Technologiepark-Zwijnaarde 126, Zwijnaarde, 126  iGent, Campus Ardoyen<br/>Elektronica<br/>",
+        "end": "2020-02-21T15:30",
+        "className": "onderwijs",
+        "id": 56,
+        "title": "E701052"
+    }, {
+        "allDay": false,
+        "editable": false,
+        "start": "2020-02-21T15:45",
+        "tooltip": "<span class='tijdstip'>15:45-17:45<\/span><br/><span class='activiteittype'>Onderwijs<\/span><br/><span class='cursusnaam'>Ingenieursproject<\/span><br/><span class='cursuscode'>E701052<\/span><br/>groep: 10-18<br/>Kathleen Gekiere<br/>Practicumzaal 2.1, Technologiepark-Zwijnaarde 126, Zwijnaarde, 126  iGent, Campus Ardoyen<br/>Elektronica<br/>",
+        "description": "<span class='activiteittype'>Onderwijs<\/span><br/><span class='cursusnaam'>Ingenieursproject<\/span><br/><span class='cursuscode'>E701052<\/span><br/>groep: 10-18<br/>Kathleen Gekiere<br/>Practicumzaal 2.1, Technologiepark-Zwijnaarde 126, Zwijnaarde, 126  iGent, Campus Ardoyen<br/>Elektronica<br/>",
+        "end": "2020-02-21T17:45",
+        "className": "onderwijs",
+        "id": 57,
+        "title": "E701052"
+    }, {
+        "allDay": false,
+        "editable": false,
+        "start": "2020-02-28T13:30",
+        "tooltip": "<span class='tijdstip'>13:30-15:30<\/span><br/><span class='activiteittype'>Onderwijs<\/span><br/><span class='cursusnaam'>Ingenieursproject<\/span><br/><span class='cursuscode'>E701052<\/span><br/>groep: 10-18<br/>Kathleen Gekiere<br/>Practicumzaal 2.1, Technologiepark-Zwijnaarde 126, Zwijnaarde, 126  iGent, Campus Ardoyen<br/>Elektronica<br/>",
+        "description": "<span class='activiteittype'>Onderwijs<\/span><br/><span class='cursusnaam'>Ingenieursproject<\/span><br/><span class='cursuscode'>E701052<\/span><br/>groep: 10-18<br/>Kathleen Gekiere<br/>Practicumzaal 2.1, Technologiepark-Zwijnaarde 126, Zwijnaarde, 126  iGent, Campus Ardoyen<br/>Elektronica<br/>",
+        "end": "2020-02-28T15:30",
+        "className": "onderwijs",
+        "id": 58,
+        "title": "E701052"
+    }, {
+        "allDay": false,
+        "editable": false,
+        "start": "2020-02-28T15:45",
+        "tooltip": "<span class='tijdstip'>15:45-17:45<\/span><br/><span class='activiteittype'>Onderwijs<\/span><br/><span class='cursusnaam'>Ingenieursproject<\/span><br/><span class='cursuscode'>E701052<\/span><br/>groep: 10-18<br/>Kathleen Gekiere<br/>Practicumzaal 2.1, Technologiepark-Zwijnaarde 126, Zwijnaarde, 126  iGent, Campus Ardoyen<br/>Elektronica<br/>",
+        "description": "<span class='activiteittype'>Onderwijs<\/span><br/><span class='cursusnaam'>Ingenieursproject<\/span><br/><span class='cursuscode'>E701052<\/span><br/>groep: 10-18<br/>Kathleen Gekiere<br/>Practicumzaal 2.1, Technologiepark-Zwijnaarde 126, Zwijnaarde, 126  iGent, Campus Ardoyen<br/>Elektronica<br/>",
+        "end": "2020-02-28T17:45",
+        "className": "onderwijs",
+        "id": 59,
+        "title": "E701052"
+    }, {
+        "allDay": false,
+        "editable": false,
+        "start": "2020-03-06T13:30",
+        "tooltip": "<span class='tijdstip'>13:30-15:30<\/span><br/><span class='activiteittype'>Onderwijs<\/span><br/><span class='cursusnaam'>Ingenieursproject<\/span><br/><span class='cursuscode'>E701052<\/span><br/>groep: 10-18<br/>Kathleen Gekiere<br/>Practicumzaal 2.1, Technologiepark-Zwijnaarde 126, Zwijnaarde, 126  iGent, Campus Ardoyen<br/>Elektronica<br/>",
+        "description": "<span class='activiteittype'>Onderwijs<\/span><br/><span class='cursusnaam'>Ingenieursproject<\/span><br/><span class='cursuscode'>E701052<\/span><br/>groep: 10-18<br/>Kathleen Gekiere<br/>Practicumzaal 2.1, Technologiepark-Zwijnaarde 126, Zwijnaarde, 126  iGent, Campus Ardoyen<br/>Elektronica<br/>",
+        "end": "2020-03-06T15:30",
+        "className": "onderwijs",
+        "id": 60,
+        "title": "E701052"
+    }, {
+        "allDay": false,
+        "editable": false,
+        "start": "2020-03-06T15:45",
+        "tooltip": "<span class='tijdstip'>15:45-17:45<\/span><br/><span class='activiteittype'>Onderwijs<\/span><br/><span class='cursusnaam'>Ingenieursproject<\/span><br/><span class='cursuscode'>E701052<\/span><br/>groep: 10-18<br/>Kathleen Gekiere<br/>Practicumzaal 2.1, Technologiepark-Zwijnaarde 126, Zwijnaarde, 126  iGent, Campus Ardoyen<br/>Elektronica<br/>",
+        "description": "<span class='activiteittype'>Onderwijs<\/span><br/><span class='cursusnaam'>Ingenieursproject<\/span><br/><span class='cursuscode'>E701052<\/span><br/>groep: 10-18<br/>Kathleen Gekiere<br/>Practicumzaal 2.1, Technologiepark-Zwijnaarde 126, Zwijnaarde, 126  iGent, Campus Ardoyen<br/>Elektronica<br/>",
+        "end": "2020-03-06T17:45",
+        "className": "onderwijs",
+        "id": 61,
+        "title": "E701052"
+    }, {
+        "allDay": false,
+        "editable": false,
+        "start": "2020-02-14T13:30",
+        "tooltip": "<span class='tijdstip'>13:30-15:30<\/span><br/><span class='activiteittype'>Onderwijs<\/span><br/><span class='cursusnaam'>Ingenieursproject<\/span><br/><span class='cursuscode'>E701052<\/span><br/>groep: 10-18<br/>Kathleen Gekiere<br/>GSCHC.2.040 (labo chemie), Valentin Vaerwyckweg  1, Gent, 41.03 - Gebouw C, Campus Schoonmeersen<br/>Chemie<br/>",
+        "description": "<span class='activiteittype'>Onderwijs<\/span><br/><span class='cursusnaam'>Ingenieursproject<\/span><br/><span class='cursuscode'>E701052<\/span><br/>groep: 10-18<br/>Kathleen Gekiere<br/>GSCHC.2.040 (labo chemie), Valentin Vaerwyckweg  1, Gent, 41.03 - Gebouw C, Campus Schoonmeersen<br/>Chemie<br/>",
+        "end": "2020-02-14T15:30",
+        "className": "onderwijs",
+        "id": 62,
+        "title": "E701052"
+    }, {
+        "allDay": false,
+        "editable": false,
+        "start": "2020-02-14T15:45",
+        "tooltip": "<span class='tijdstip'>15:45-17:45<\/span><br/><span class='activiteittype'>Onderwijs<\/span><br/><span class='cursusnaam'>Ingenieursproject<\/span><br/><span class='cursuscode'>E701052<\/span><br/>groep: 10-18<br/>Kathleen Gekiere<br/>GSCHC.2.040 (labo chemie), Valentin Vaerwyckweg  1, Gent, 41.03 - Gebouw C, Campus Schoonmeersen<br/>Chemie<br/>",
+        "description": "<span class='activiteittype'>Onderwijs<\/span><br/><span class='cursusnaam'>Ingenieursproject<\/span><br/><span class='cursuscode'>E701052<\/span><br/>groep: 10-18<br/>Kathleen Gekiere<br/>GSCHC.2.040 (labo chemie), Valentin Vaerwyckweg  1, Gent, 41.03 - Gebouw C, Campus Schoonmeersen<br/>Chemie<br/>",
+        "end": "2020-02-14T17:45",
+        "className": "onderwijs",
+        "id": 63,
+        "title": "E701052"
+    }, {
+        "allDay": false,
+        "editable": false,
+        "start": "2020-02-21T13:30",
+        "tooltip": "<span class='tijdstip'>13:30-15:30<\/span><br/><span class='activiteittype'>Onderwijs<\/span><br/><span class='cursusnaam'>Ingenieursproject<\/span><br/><span class='cursuscode'>E701052<\/span><br/>groep: 10-18<br/>Kathleen Gekiere<br/>GSCHC.2.040 (labo chemie), Valentin Vaerwyckweg  1, Gent, 41.03 - Gebouw C, Campus Schoonmeersen<br/>Chemie<br/>",
+        "description": "<span class='activiteittype'>Onderwijs<\/span><br/><span class='cursusnaam'>Ingenieursproject<\/span><br/><span class='cursuscode'>E701052<\/span><br/>groep: 10-18<br/>Kathleen Gekiere<br/>GSCHC.2.040 (labo chemie), Valentin Vaerwyckweg  1, Gent, 41.03 - Gebouw C, Campus Schoonmeersen<br/>Chemie<br/>",
+        "end": "2020-02-21T15:30",
+        "className": "onderwijs",
+        "id": 64,
+        "title": "E701052"
+    }, {
+        "allDay": false,
+        "editable": false,
+        "start": "2020-02-21T15:45",
+        "tooltip": "<span class='tijdstip'>15:45-17:45<\/span><br/><span class='activiteittype'>Onderwijs<\/span><br/><span class='cursusnaam'>Ingenieursproject<\/span><br/><span class='cursuscode'>E701052<\/span><br/>groep: 10-18<br/>Kathleen Gekiere<br/>GSCHC.2.040 (labo chemie), Valentin Vaerwyckweg  1, Gent, 41.03 - Gebouw C, Campus Schoonmeersen<br/>Chemie<br/>",
+        "description": "<span class='activiteittype'>Onderwijs<\/span><br/><span class='cursusnaam'>Ingenieursproject<\/span><br/><span class='cursuscode'>E701052<\/span><br/>groep: 10-18<br/>Kathleen Gekiere<br/>GSCHC.2.040 (labo chemie), Valentin Vaerwyckweg  1, Gent, 41.03 - Gebouw C, Campus Schoonmeersen<br/>Chemie<br/>",
+        "end": "2020-02-21T17:45",
+        "className": "onderwijs",
+        "id": 65,
+        "title": "E701052"
+    }, {
+        "allDay": false,
+        "editable": false,
+        "start": "2020-03-06T13:30",
+        "tooltip": "<span class='tijdstip'>13:30-15:30<\/span><br/><span class='activiteittype'>Onderwijs<\/span><br/><span class='cursusnaam'>Ingenieursproject<\/span><br/><span class='cursuscode'>E701052<\/span><br/>groep: 10-18<br/>Kathleen Gekiere<br/>GSCHC.2.040 (labo chemie), Valentin Vaerwyckweg  1, Gent, 41.03 - Gebouw C, Campus Schoonmeersen<br/>Chemie<br/>",
+        "description": "<span class='activiteittype'>Onderwijs<\/span><br/><span class='cursusnaam'>Ingenieursproject<\/span><br/><span class='cursuscode'>E701052<\/span><br/>groep: 10-18<br/>Kathleen Gekiere<br/>GSCHC.2.040 (labo chemie), Valentin Vaerwyckweg  1, Gent, 41.03 - Gebouw C, Campus Schoonmeersen<br/>Chemie<br/>",
+        "end": "2020-03-06T15:30",
+        "className": "onderwijs",
+        "id": 66,
+        "title": "E701052"
+    }, {
+        "allDay": false,
+        "editable": false,
+        "start": "2020-03-06T15:45",
+        "tooltip": "<span class='tijdstip'>15:45-17:45<\/span><br/><span class='activiteittype'>Onderwijs<\/span><br/><span class='cursusnaam'>Ingenieursproject<\/span><br/><span class='cursuscode'>E701052<\/span><br/>groep: 10-18<br/>Kathleen Gekiere<br/>GSCHC.2.040 (labo chemie), Valentin Vaerwyckweg  1, Gent, 41.03 - Gebouw C, Campus Schoonmeersen<br/>Chemie<br/>",
+        "description": "<span class='activiteittype'>Onderwijs<\/span><br/><span class='cursusnaam'>Ingenieursproject<\/span><br/><span class='cursuscode'>E701052<\/span><br/>groep: 10-18<br/>Kathleen Gekiere<br/>GSCHC.2.040 (labo chemie), Valentin Vaerwyckweg  1, Gent, 41.03 - Gebouw C, Campus Schoonmeersen<br/>Chemie<br/>",
+        "end": "2020-03-06T17:45",
+        "className": "onderwijs",
+        "id": 67,
+        "title": "E701052"
+    }, {
+        "allDay": false,
+        "editable": false,
+        "start": "2020-02-13T11:30",
+        "tooltip": "<span class='tijdstip'>11:30-12:30<\/span><br/><span class='activiteittype'>Onderwijs<\/span><br/><span class='cursusnaam'>Informatica<\/span><br/><span class='cursuscode'>E701053<\/span><br/>groep: 10-18<br/>Helga Naessens<br/>GSCHC.1.155 CPVZ, Valentin Vaerwyckweg  1, Gent, 41.03 - Gebouw C, Campus Schoonmeersen<br/>Start om11h<br/>",
+        "description": "<span class='activiteittype'>Onderwijs<\/span><br/><span class='cursusnaam'>Informatica<\/span><br/><span class='cursuscode'>E701053<\/span><br/>groep: 10-18<br/>Helga Naessens<br/>GSCHC.1.155 CPVZ, Valentin Vaerwyckweg  1, Gent, 41.03 - Gebouw C, Campus Schoonmeersen<br/>Start om11h<br/>",
+        "end": "2020-02-13T12:30",
+        "className": "onderwijs",
+        "id": 68,
+        "title": "E701053"
+    }, {
+        "allDay": false,
+        "editable": false,
+        "start": "2020-02-20T11:30",
+        "tooltip": "<span class='tijdstip'>11:30-12:30<\/span><br/><span class='activiteittype'>Onderwijs<\/span><br/><span class='cursusnaam'>Informatica<\/span><br/><span class='cursuscode'>E701053<\/span><br/>groep: 10-18<br/>Helga Naessens<br/>GSCHC.1.155 CPVZ, Valentin Vaerwyckweg  1, Gent, 41.03 - Gebouw C, Campus Schoonmeersen<br/>Start om11h<br/>",
+        "description": "<span class='activiteittype'>Onderwijs<\/span><br/><span class='cursusnaam'>Informatica<\/span><br/><span class='cursuscode'>E701053<\/span><br/>groep: 10-18<br/>Helga Naessens<br/>GSCHC.1.155 CPVZ, Valentin Vaerwyckweg  1, Gent, 41.03 - Gebouw C, Campus Schoonmeersen<br/>Start om11h<br/>",
+        "end": "2020-02-20T12:30",
+        "className": "onderwijs",
+        "id": 69,
+        "title": "E701053"
+    }, {
+        "allDay": false,
+        "editable": false,
+        "start": "2020-02-27T11:30",
+        "tooltip": "<span class='tijdstip'>11:30-12:30<\/span><br/><span class='activiteittype'>Onderwijs<\/span><br/><span class='cursusnaam'>Informatica<\/span><br/><span class='cursuscode'>E701053<\/span><br/>groep: 10-18<br/>Helga Naessens<br/>GSCHC.1.155 CPVZ, Valentin Vaerwyckweg  1, Gent, 41.03 - Gebouw C, Campus Schoonmeersen<br/>Start om11h<br/>",
+        "description": "<span class='activiteittype'>Onderwijs<\/span><br/><span class='cursusnaam'>Informatica<\/span><br/><span class='cursuscode'>E701053<\/span><br/>groep: 10-18<br/>Helga Naessens<br/>GSCHC.1.155 CPVZ, Valentin Vaerwyckweg  1, Gent, 41.03 - Gebouw C, Campus Schoonmeersen<br/>Start om11h<br/>",
+        "end": "2020-02-27T12:30",
+        "className": "onderwijs",
+        "id": 70,
+        "title": "E701053"
+    }, {
+        "allDay": false,
+        "editable": false,
+        "start": "2020-03-05T11:30",
+        "tooltip": "<span class='tijdstip'>11:30-12:30<\/span><br/><span class='activiteittype'>Onderwijs<\/span><br/><span class='cursusnaam'>Informatica<\/span><br/><span class='cursuscode'>E701053<\/span><br/>groep: 10-18<br/>Helga Naessens<br/>GSCHC.1.155 CPVZ, Valentin Vaerwyckweg  1, Gent, 41.03 - Gebouw C, Campus Schoonmeersen<br/>Start om11h<br/>",
+        "description": "<span class='activiteittype'>Onderwijs<\/span><br/><span class='cursusnaam'>Informatica<\/span><br/><span class='cursuscode'>E701053<\/span><br/>groep: 10-18<br/>Helga Naessens<br/>GSCHC.1.155 CPVZ, Valentin Vaerwyckweg  1, Gent, 41.03 - Gebouw C, Campus Schoonmeersen<br/>Start om11h<br/>",
+        "end": "2020-03-05T12:30",
+        "className": "onderwijs",
+        "id": 71,
+        "title": "E701053"
+    }, {
+        "allDay": false,
+        "editable": false,
+        "start": "2020-02-26T15:45",
+        "tooltip": "<span class='tijdstip'>15:45-17:45<\/span><br/><span class='activiteittype'>Onderwijs<\/span><br/><span class='cursusnaam'>Fysica<\/span><br/><span class='cursuscode'>E701056<\/span><br/>groep: 15,18<br/>Koen Keunen<br/>GSCHB.2.039, Valentin Vaerwyckweg 1, Gent, 41.02 - Gebouw B, Campus Schoonmeersen<br/>Van 16h tot 18h<br/>",
+        "description": "<span class='activiteittype'>Onderwijs<\/span><br/><span class='cursusnaam'>Fysica<\/span><br/><span class='cursuscode'>E701056<\/span><br/>groep: 15,18<br/>Koen Keunen<br/>GSCHB.2.039, Valentin Vaerwyckweg 1, Gent, 41.02 - Gebouw B, Campus Schoonmeersen<br/>Van 16h tot 18h<br/>",
+        "end": "2020-02-26T17:45",
+        "className": "onderwijs",
+        "id": 72,
+        "title": "E701056"
+    }, {
+        "allDay": false,
+        "editable": false,
+        "start": "2020-03-04T15:45",
+        "tooltip": "<span class='tijdstip'>15:45-17:45<\/span><br/><span class='activiteittype'>Onderwijs<\/span><br/><span class='cursusnaam'>Fysica<\/span><br/><span class='cursuscode'>E701056<\/span><br/>groep: 15,18<br/>Koen Keunen<br/>GSCHB.2.039, Valentin Vaerwyckweg 1, Gent, 41.02 - Gebouw B, Campus Schoonmeersen<br/>Van 16h tot 18h<br/>",
+        "description": "<span class='activiteittype'>Onderwijs<\/span><br/><span class='cursusnaam'>Fysica<\/span><br/><span class='cursuscode'>E701056<\/span><br/>groep: 15,18<br/>Koen Keunen<br/>GSCHB.2.039, Valentin Vaerwyckweg 1, Gent, 41.02 - Gebouw B, Campus Schoonmeersen<br/>Van 16h tot 18h<br/>",
+        "end": "2020-03-04T17:45",
+        "className": "onderwijs",
+        "id": 73,
+        "title": "E701056"
+    }, {
+        "allDay": false,
+        "editable": false,
+        "start": "2020-02-12T10:30",
+        "tooltip": "<span class='tijdstip'>10:30-12:30<\/span><br/><span class='activiteittype'>Onderwijs<\/span><br/><span class='cursusnaam'>Fysica<\/span><br/><span class='cursuscode'>E701056<\/span><br/>groep: 10-18<br/>Toon Van Alboom<br/>GSCHC.0.125, Valentin Vaerwyckweg  1, Gent, 41.03 - Gebouw C, Campus Schoonmeersen<br/>",
+        "description": "<span class='activiteittype'>Onderwijs<\/span><br/><span class='cursusnaam'>Fysica<\/span><br/><span class='cursuscode'>E701056<\/span><br/>groep: 10-18<br/>Toon Van Alboom<br/>GSCHC.0.125, Valentin Vaerwyckweg  1, Gent, 41.03 - Gebouw C, Campus Schoonmeersen<br/>",
+        "end": "2020-02-12T12:30",
+        "className": "onderwijs",
+        "id": 74,
+        "title": "E701056"
+    }, {
+        "allDay": false,
+        "editable": false,
+        "start": "2020-02-19T10:30",
+        "tooltip": "<span class='tijdstip'>10:30-12:30<\/span><br/><span class='activiteittype'>Onderwijs<\/span><br/><span class='cursusnaam'>Fysica<\/span><br/><span class='cursuscode'>E701056<\/span><br/>groep: 10-18<br/>Toon Van Alboom<br/>GSCHC.0.125, Valentin Vaerwyckweg  1, Gent, 41.03 - Gebouw C, Campus Schoonmeersen<br/>",
+        "description": "<span class='activiteittype'>Onderwijs<\/span><br/><span class='cursusnaam'>Fysica<\/span><br/><span class='cursuscode'>E701056<\/span><br/>groep: 10-18<br/>Toon Van Alboom<br/>GSCHC.0.125, Valentin Vaerwyckweg  1, Gent, 41.03 - Gebouw C, Campus Schoonmeersen<br/>",
+        "end": "2020-02-19T12:30",
+        "className": "onderwijs",
+        "id": 75,
+        "title": "E701056"
+    }, {
+        "allDay": false,
+        "editable": false,
+        "start": "2020-02-26T10:30",
+        "tooltip": "<span class='tijdstip'>10:30-12:30<\/span><br/><span class='activiteittype'>Onderwijs<\/span><br/><span class='cursusnaam'>Fysica<\/span><br/><span class='cursuscode'>E701056<\/span><br/>groep: 10-18<br/>Toon Van Alboom<br/>GSCHC.0.125, Valentin Vaerwyckweg  1, Gent, 41.03 - Gebouw C, Campus Schoonmeersen<br/>",
+        "description": "<span class='activiteittype'>Onderwijs<\/span><br/><span class='cursusnaam'>Fysica<\/span><br/><span class='cursuscode'>E701056<\/span><br/>groep: 10-18<br/>Toon Van Alboom<br/>GSCHC.0.125, Valentin Vaerwyckweg  1, Gent, 41.03 - Gebouw C, Campus Schoonmeersen<br/>",
+        "end": "2020-02-26T12:30",
+        "className": "onderwijs",
+        "id": 76,
+        "title": "E701056"
+    }, {
+        "allDay": false,
+        "editable": false,
+        "start": "2020-03-04T10:30",
+        "tooltip": "<span class='tijdstip'>10:30-12:30<\/span><br/><span class='activiteittype'>Onderwijs<\/span><br/><span class='cursusnaam'>Fysica<\/span><br/><span class='cursuscode'>E701056<\/span><br/>groep: 10-18<br/>Toon Van Alboom<br/>GSCHC.0.125, Valentin Vaerwyckweg  1, Gent, 41.03 - Gebouw C, Campus Schoonmeersen<br/>",
+        "description": "<span class='activiteittype'>Onderwijs<\/span><br/><span class='cursusnaam'>Fysica<\/span><br/><span class='cursuscode'>E701056<\/span><br/>groep: 10-18<br/>Toon Van Alboom<br/>GSCHC.0.125, Valentin Vaerwyckweg  1, Gent, 41.03 - Gebouw C, Campus Schoonmeersen<br/>",
+        "end": "2020-03-04T12:30",
+        "className": "onderwijs",
+        "id": 77,
+        "title": "E701056"
+    }, {
+        "allDay": false,
+        "editable": false,
+        "start": "2020-02-14T08:15",
+        "tooltip": "<span class='tijdstip'>08:15-10:15<\/span><br/><span class='activiteittype'>Onderwijs<\/span><br/><span class='cursusnaam'>Fysica<\/span><br/><span class='cursuscode'>E701056<\/span><br/>groep: 10-18<br/>Toon Van Alboom<br/>GSCHP.0.154, Valentin Vaerwyckweg  1, Gent, 41.05 - Gebouw P, Campus Schoonmeersen<br/>",
+        "description": "<span class='activiteittype'>Onderwijs<\/span><br/><span class='cursusnaam'>Fysica<\/span><br/><span class='cursuscode'>E701056<\/span><br/>groep: 10-18<br/>Toon Van Alboom<br/>GSCHP.0.154, Valentin Vaerwyckweg  1, Gent, 41.05 - Gebouw P, Campus Schoonmeersen<br/>",
+        "end": "2020-02-14T10:15",
+        "className": "onderwijs",
+        "id": 78,
+        "title": "E701056"
+    }, {
+        "allDay": false,
+        "editable": false,
+        "start": "2020-02-28T08:15",
+        "tooltip": "<span class='tijdstip'>08:15-10:15<\/span><br/><span class='activiteittype'>Onderwijs<\/span><br/><span class='cursusnaam'>Fysica<\/span><br/><span class='cursuscode'>E701056<\/span><br/>groep: 10-18<br/>Toon Van Alboom<br/>GSCHP.0.154, Valentin Vaerwyckweg  1, Gent, 41.05 - Gebouw P, Campus Schoonmeersen<br/>",
+        "description": "<span class='activiteittype'>Onderwijs<\/span><br/><span class='cursusnaam'>Fysica<\/span><br/><span class='cursuscode'>E701056<\/span><br/>groep: 10-18<br/>Toon Van Alboom<br/>GSCHP.0.154, Valentin Vaerwyckweg  1, Gent, 41.05 - Gebouw P, Campus Schoonmeersen<br/>",
+        "end": "2020-02-28T10:15",
+        "className": "onderwijs",
+        "id": 79,
+        "title": "E701056"
+    }, {
+        "allDay": false,
+        "editable": false,
+        "start": "2020-02-18T13:30",
+        "tooltip": "<span class='tijdstip'>13:30-15:30<\/span><br/><span class='activiteittype'>Onderwijs<\/span><br/><span class='cursusnaam'>Informatica<\/span><br/><span class='cursuscode'>E701053<\/span><br/>groep: 10-18<br/>Helga Naessens<br/>GSCHC.0.125, Valentin Vaerwyckweg  1, Gent, 41.03 - Gebouw C, Campus Schoonmeersen<br/>",
+        "description": "<span class='activiteittype'>Onderwijs<\/span><br/><span class='cursusnaam'>Informatica<\/span><br/><span class='cursuscode'>E701053<\/span><br/>groep: 10-18<br/>Helga Naessens<br/>GSCHC.0.125, Valentin Vaerwyckweg  1, Gent, 41.03 - Gebouw C, Campus Schoonmeersen<br/>",
+        "end": "2020-02-18T15:30",
+        "className": "onderwijs",
+        "id": 80,
+        "title": "E701053"
+    }, {
+        "allDay": false,
+        "editable": false,
+        "start": "2020-03-03T13:30",
+        "tooltip": "<span class='tijdstip'>13:30-15:30<\/span><br/><span class='activiteittype'>Onderwijs<\/span><br/><span class='cursusnaam'>Informatica<\/span><br/><span class='cursuscode'>E701053<\/span><br/>groep: 10-18<br/>Helga Naessens<br/>GSCHC.0.125, Valentin Vaerwyckweg  1, Gent, 41.03 - Gebouw C, Campus Schoonmeersen<br/>",
+        "description": "<span class='activiteittype'>Onderwijs<\/span><br/><span class='cursusnaam'>Informatica<\/span><br/><span class='cursuscode'>E701053<\/span><br/>groep: 10-18<br/>Helga Naessens<br/>GSCHC.0.125, Valentin Vaerwyckweg  1, Gent, 41.03 - Gebouw C, Campus Schoonmeersen<br/>",
+        "end": "2020-03-03T15:30",
+        "className": "onderwijs",
+        "id": 81,
+        "title": "E701053"
+    }, {
+        "allDay": false,
+        "editable": false,
+        "start": "2020-02-14T13:30",
+        "tooltip": "<span class='tijdstip'>13:30-15:30<\/span><br/><span class='activiteittype'>Onderwijs<\/span><br/><span class='cursusnaam'>Ingenieursproject<\/span><br/><span class='cursuscode'>E701052<\/span><br/>groep: 10-18<br/>Kathleen Gekiere<br/>Practicumzaal 2.2, Technologiepark-Zwijnaarde 126, Zwijnaarde, 126  iGent, Campus Ardoyen<br/>Elektronica<br/>",
+        "description": "<span class='activiteittype'>Onderwijs<\/span><br/><span class='cursusnaam'>Ingenieursproject<\/span><br/><span class='cursuscode'>E701052<\/span><br/>groep: 10-18<br/>Kathleen Gekiere<br/>Practicumzaal 2.2, Technologiepark-Zwijnaarde 126, Zwijnaarde, 126  iGent, Campus Ardoyen<br/>Elektronica<br/>",
+        "end": "2020-02-14T15:30",
+        "className": "onderwijs",
+        "id": 82,
+        "title": "E701052"
+    }, {
+        "allDay": false,
+        "editable": false,
+        "start": "2020-02-14T15:45",
+        "tooltip": "<span class='tijdstip'>15:45-17:45<\/span><br/><span class='activiteittype'>Onderwijs<\/span><br/><span class='cursusnaam'>Ingenieursproject<\/span><br/><span class='cursuscode'>E701052<\/span><br/>groep: 10-18<br/>Kathleen Gekiere<br/>Practicumzaal 2.2, Technologiepark-Zwijnaarde 126, Zwijnaarde, 126  iGent, Campus Ardoyen<br/>Elektronica<br/>",
+        "description": "<span class='activiteittype'>Onderwijs<\/span><br/><span class='cursusnaam'>Ingenieursproject<\/span><br/><span class='cursuscode'>E701052<\/span><br/>groep: 10-18<br/>Kathleen Gekiere<br/>Practicumzaal 2.2, Technologiepark-Zwijnaarde 126, Zwijnaarde, 126  iGent, Campus Ardoyen<br/>Elektronica<br/>",
+        "end": "2020-02-14T17:45",
+        "className": "onderwijs",
+        "id": 83,
+        "title": "E701052"
+    }, {
+        "allDay": false,
+        "editable": false,
+        "start": "2020-02-21T13:30",
+        "tooltip": "<span class='tijdstip'>13:30-15:30<\/span><br/><span class='activiteittype'>Onderwijs<\/span><br/><span class='cursusnaam'>Ingenieursproject<\/span><br/><span class='cursuscode'>E701052<\/span><br/>groep: 10-18<br/>Kathleen Gekiere<br/>Practicumzaal 2.2, Technologiepark-Zwijnaarde 126, Zwijnaarde, 126  iGent, Campus Ardoyen<br/>Elektronica<br/>",
+        "description": "<span class='activiteittype'>Onderwijs<\/span><br/><span class='cursusnaam'>Ingenieursproject<\/span><br/><span class='cursuscode'>E701052<\/span><br/>groep: 10-18<br/>Kathleen Gekiere<br/>Practicumzaal 2.2, Technologiepark-Zwijnaarde 126, Zwijnaarde, 126  iGent, Campus Ardoyen<br/>Elektronica<br/>",
+        "end": "2020-02-21T15:30",
+        "className": "onderwijs",
+        "id": 84,
+        "title": "E701052"
+    }, {
+        "allDay": false,
+        "editable": false,
+        "start": "2020-02-21T15:45",
+        "tooltip": "<span class='tijdstip'>15:45-17:45<\/span><br/><span class='activiteittype'>Onderwijs<\/span><br/><span class='cursusnaam'>Ingenieursproject<\/span><br/><span class='cursuscode'>E701052<\/span><br/>groep: 10-18<br/>Kathleen Gekiere<br/>Practicumzaal 2.2, Technologiepark-Zwijnaarde 126, Zwijnaarde, 126  iGent, Campus Ardoyen<br/>Elektronica<br/>",
+        "description": "<span class='activiteittype'>Onderwijs<\/span><br/><span class='cursusnaam'>Ingenieursproject<\/span><br/><span class='cursuscode'>E701052<\/span><br/>groep: 10-18<br/>Kathleen Gekiere<br/>Practicumzaal 2.2, Technologiepark-Zwijnaarde 126, Zwijnaarde, 126  iGent, Campus Ardoyen<br/>Elektronica<br/>",
+        "end": "2020-02-21T17:45",
+        "className": "onderwijs",
+        "id": 85,
+        "title": "E701052"
+    }, {
+        "allDay": false,
+        "editable": false,
+        "start": "2020-02-28T13:30",
+        "tooltip": "<span class='tijdstip'>13:30-15:30<\/span><br/><span class='activiteittype'>Onderwijs<\/span><br/><span class='cursusnaam'>Ingenieursproject<\/span><br/><span class='cursuscode'>E701052<\/span><br/>groep: 10-18<br/>Kathleen Gekiere<br/>Practicumzaal 2.2, Technologiepark-Zwijnaarde 126, Zwijnaarde, 126  iGent, Campus Ardoyen<br/>Elektronica<br/>",
+        "description": "<span class='activiteittype'>Onderwijs<\/span><br/><span class='cursusnaam'>Ingenieursproject<\/span><br/><span class='cursuscode'>E701052<\/span><br/>groep: 10-18<br/>Kathleen Gekiere<br/>Practicumzaal 2.2, Technologiepark-Zwijnaarde 126, Zwijnaarde, 126  iGent, Campus Ardoyen<br/>Elektronica<br/>",
+        "end": "2020-02-28T15:30",
+        "className": "onderwijs",
+        "id": 86,
+        "title": "E701052"
+    }, {
+        "allDay": false,
+        "editable": false,
+        "start": "2020-02-28T15:45",
+        "tooltip": "<span class='tijdstip'>15:45-17:45<\/span><br/><span class='activiteittype'>Onderwijs<\/span><br/><span class='cursusnaam'>Ingenieursproject<\/span><br/><span class='cursuscode'>E701052<\/span><br/>groep: 10-18<br/>Kathleen Gekiere<br/>Practicumzaal 2.2, Technologiepark-Zwijnaarde 126, Zwijnaarde, 126  iGent, Campus Ardoyen<br/>Elektronica<br/>",
+        "description": "<span class='activiteittype'>Onderwijs<\/span><br/><span class='cursusnaam'>Ingenieursproject<\/span><br/><span class='cursuscode'>E701052<\/span><br/>groep: 10-18<br/>Kathleen Gekiere<br/>Practicumzaal 2.2, Technologiepark-Zwijnaarde 126, Zwijnaarde, 126  iGent, Campus Ardoyen<br/>Elektronica<br/>",
+        "end": "2020-02-28T17:45",
+        "className": "onderwijs",
+        "id": 87,
+        "title": "E701052"
+    }, {
+        "allDay": false,
+        "editable": false,
+        "start": "2020-03-06T13:30",
+        "tooltip": "<span class='tijdstip'>13:30-15:30<\/span><br/><span class='activiteittype'>Onderwijs<\/span><br/><span class='cursusnaam'>Ingenieursproject<\/span><br/><span class='cursuscode'>E701052<\/span><br/>groep: 10-18<br/>Kathleen Gekiere<br/>Practicumzaal 2.2, Technologiepark-Zwijnaarde 126, Zwijnaarde, 126  iGent, Campus Ardoyen<br/>Elektronica<br/>",
+        "description": "<span class='activiteittype'>Onderwijs<\/span><br/><span class='cursusnaam'>Ingenieursproject<\/span><br/><span class='cursuscode'>E701052<\/span><br/>groep: 10-18<br/>Kathleen Gekiere<br/>Practicumzaal 2.2, Technologiepark-Zwijnaarde 126, Zwijnaarde, 126  iGent, Campus Ardoyen<br/>Elektronica<br/>",
+        "end": "2020-03-06T15:30",
+        "className": "onderwijs",
+        "id": 88,
+        "title": "E701052"
+    }, {
+        "allDay": false,
+        "editable": false,
+        "start": "2020-03-06T15:45",
+        "tooltip": "<span class='tijdstip'>15:45-17:45<\/span><br/><span class='activiteittype'>Onderwijs<\/span><br/><span class='cursusnaam'>Ingenieursproject<\/span><br/><span class='cursuscode'>E701052<\/span><br/>groep: 10-18<br/>Kathleen Gekiere<br/>Practicumzaal 2.2, Technologiepark-Zwijnaarde 126, Zwijnaarde, 126  iGent, Campus Ardoyen<br/>Elektronica<br/>",
+        "description": "<span class='activiteittype'>Onderwijs<\/span><br/><span class='cursusnaam'>Ingenieursproject<\/span><br/><span class='cursuscode'>E701052<\/span><br/>groep: 10-18<br/>Kathleen Gekiere<br/>Practicumzaal 2.2, Technologiepark-Zwijnaarde 126, Zwijnaarde, 126  iGent, Campus Ardoyen<br/>Elektronica<br/>",
+        "end": "2020-03-06T17:45",
+        "className": "onderwijs",
+        "id": 89,
+        "title": "E701052"
+    }, {
+        "allDay": false,
+        "editable": false,
+        "start": "2020-02-14T10:30",
+        "tooltip": "<span class='tijdstip'>10:30-12:30<\/span><br/><span class='activiteittype'>Onderwijs<\/span><br/><span class='cursusnaam'>Mechanica<\/span><br/><span class='cursuscode'>E701030<\/span><br/>groep: 16-18<br/>Tom Claessens<br/>GSCHB.1.034, Valentin Vaerwyckweg 1, Gent, 41.02 - Gebouw B, Campus Schoonmeersen<br/>",
+        "description": "<span class='activiteittype'>Onderwijs<\/span><br/><span class='cursusnaam'>Mechanica<\/span><br/><span class='cursuscode'>E701030<\/span><br/>groep: 16-18<br/>Tom Claessens<br/>GSCHB.1.034, Valentin Vaerwyckweg 1, Gent, 41.02 - Gebouw B, Campus Schoonmeersen<br/>",
+        "end": "2020-02-14T12:30",
+        "className": "onderwijs",
+        "id": 90,
+        "title": "E701030"
+    }, {
+        "allDay": false,
+        "editable": false,
+        "start": "2020-02-28T10:30",
+        "tooltip": "<span class='tijdstip'>10:30-12:30<\/span><br/><span class='activiteittype'>Onderwijs<\/span><br/><span class='cursusnaam'>Mechanica<\/span><br/><span class='cursuscode'>E701030<\/span><br/>groep: 16-18<br/>Tom Claessens<br/>GSCHB.1.034, Valentin Vaerwyckweg 1, Gent, 41.02 - Gebouw B, Campus Schoonmeersen<br/>",
+        "description": "<span class='activiteittype'>Onderwijs<\/span><br/><span class='cursusnaam'>Mechanica<\/span><br/><span class='cursuscode'>E701030<\/span><br/>groep: 16-18<br/>Tom Claessens<br/>GSCHB.1.034, Valentin Vaerwyckweg 1, Gent, 41.02 - Gebouw B, Campus Schoonmeersen<br/>",
+        "end": "2020-02-28T12:30",
+        "className": "onderwijs",
+        "id": 91,
+        "title": "E701030"
+    }, {
+        "allDay": false,
+        "editable": false,
+        "start": "2020-02-19T13:30",
+        "tooltip": "<span class='tijdstip'>13:30-15:30<\/span><br/><span class='activiteittype'>Onderwijs<\/span><br/><span class='cursusnaam'>Informatica<\/span><br/><span class='cursuscode'>E701053<\/span><br/>groep: 13,14,18<br/>Marleen Denert<br/>PC-lokaal GSCHB.2.027, Valentin Vaerwyckweg 1, Gent, 41.02 - Gebouw B, Campus Schoonmeersen<br/>Van 13h15 tot 15h45: + B2.030 + B2.031<br/>",
+        "description": "<span class='activiteittype'>Onderwijs<\/span><br/><span class='cursusnaam'>Informatica<\/span><br/><span class='cursuscode'>E701053<\/span><br/>groep: 13,14,18<br/>Marleen Denert<br/>PC-lokaal GSCHB.2.027, Valentin Vaerwyckweg 1, Gent, 41.02 - Gebouw B, Campus Schoonmeersen<br/>Van 13h15 tot 15h45: + B2.030 + B2.031<br/>",
+        "end": "2020-02-19T15:30",
+        "className": "onderwijs",
+        "id": 92,
+        "title": "E701053"
+    }, {
+        "allDay": false,
+        "editable": false,
+        "start": "2020-02-19T15:45",
+        "tooltip": "<span class='tijdstip'>15:45-16:45<\/span><br/><span class='activiteittype'>Onderwijs<\/span><br/><span class='cursusnaam'>Informatica<\/span><br/><span class='cursuscode'>E701053<\/span><br/>groep: 13,14,18<br/>Marleen Denert<br/>PC-lokaal GSCHB.2.027, Valentin Vaerwyckweg 1, Gent, 41.02 - Gebouw B, Campus Schoonmeersen<br/>Van 13h15 tot 15h45: + B2.030 + B2.031<br/>",
+        "description": "<span class='activiteittype'>Onderwijs<\/span><br/><span class='cursusnaam'>Informatica<\/span><br/><span class='cursuscode'>E701053<\/span><br/>groep: 13,14,18<br/>Marleen Denert<br/>PC-lokaal GSCHB.2.027, Valentin Vaerwyckweg 1, Gent, 41.02 - Gebouw B, Campus Schoonmeersen<br/>Van 13h15 tot 15h45: + B2.030 + B2.031<br/>",
+        "end": "2020-02-19T16:45",
+        "className": "onderwijs",
+        "id": 93,
+        "title": "E701053"
+    }, {
+        "allDay": false,
+        "editable": false,
+        "start": "2020-02-26T13:30",
+        "tooltip": "<span class='tijdstip'>13:30-15:30<\/span><br/><span class='activiteittype'>Onderwijs<\/span><br/><span class='cursusnaam'>Informatica<\/span><br/><span class='cursuscode'>E701053<\/span><br/>groep: 13,14,18<br/>Marleen Denert<br/>PC-lokaal GSCHB.2.027, Valentin Vaerwyckweg 1, Gent, 41.02 - Gebouw B, Campus Schoonmeersen<br/>Van 13h15 tot 15h45: + B2.030 + B2.031<br/>",
+        "description": "<span class='activiteittype'>Onderwijs<\/span><br/><span class='cursusnaam'>Informatica<\/span><br/><span class='cursuscode'>E701053<\/span><br/>groep: 13,14,18<br/>Marleen Denert<br/>PC-lokaal GSCHB.2.027, Valentin Vaerwyckweg 1, Gent, 41.02 - Gebouw B, Campus Schoonmeersen<br/>Van 13h15 tot 15h45: + B2.030 + B2.031<br/>",
+        "end": "2020-02-26T15:30",
+        "className": "onderwijs",
+        "id": 94,
+        "title": "E701053"
+    }, {
+        "allDay": false,
+        "editable": false,
+        "start": "2020-02-26T15:45",
+        "tooltip": "<span class='tijdstip'>15:45-16:45<\/span><br/><span class='activiteittype'>Onderwijs<\/span><br/><span class='cursusnaam'>Informatica<\/span><br/><span class='cursuscode'>E701053<\/span><br/>groep: 13,14,18<br/>Marleen Denert<br/>PC-lokaal GSCHB.2.027, Valentin Vaerwyckweg 1, Gent, 41.02 - Gebouw B, Campus Schoonmeersen<br/>Van 13h15 tot 15h45: + B2.030 + B2.031<br/>",
+        "description": "<span class='activiteittype'>Onderwijs<\/span><br/><span class='cursusnaam'>Informatica<\/span><br/><span class='cursuscode'>E701053<\/span><br/>groep: 13,14,18<br/>Marleen Denert<br/>PC-lokaal GSCHB.2.027, Valentin Vaerwyckweg 1, Gent, 41.02 - Gebouw B, Campus Schoonmeersen<br/>Van 13h15 tot 15h45: + B2.030 + B2.031<br/>",
+        "end": "2020-02-26T16:45",
+        "className": "onderwijs",
+        "id": 95,
+        "title": "E701053"
+    }, {
+        "allDay": false,
+        "editable": false,
+        "start": "2020-03-04T13:30",
+        "tooltip": "<span class='tijdstip'>13:30-15:30<\/span><br/><span class='activiteittype'>Onderwijs<\/span><br/><span class='cursusnaam'>Informatica<\/span><br/><span class='cursuscode'>E701053<\/span><br/>groep: 13,14,18<br/>Marleen Denert<br/>PC-lokaal GSCHB.2.027, Valentin Vaerwyckweg 1, Gent, 41.02 - Gebouw B, Campus Schoonmeersen<br/>Van 13h15 tot 15h45: + B2.030 + B2.031<br/>",
+        "description": "<span class='activiteittype'>Onderwijs<\/span><br/><span class='cursusnaam'>Informatica<\/span><br/><span class='cursuscode'>E701053<\/span><br/>groep: 13,14,18<br/>Marleen Denert<br/>PC-lokaal GSCHB.2.027, Valentin Vaerwyckweg 1, Gent, 41.02 - Gebouw B, Campus Schoonmeersen<br/>Van 13h15 tot 15h45: + B2.030 + B2.031<br/>",
+        "end": "2020-03-04T15:30",
+        "className": "onderwijs",
+        "id": 96,
+        "title": "E701053"
+    }, {
+        "allDay": false,
+        "editable": false,
+        "start": "2020-03-04T15:45",
+        "tooltip": "<span class='tijdstip'>15:45-16:45<\/span><br/><span class='activiteittype'>Onderwijs<\/span><br/><span class='cursusnaam'>Informatica<\/span><br/><span class='cursuscode'>E701053<\/span><br/>groep: 13,14,18<br/>Marleen Denert<br/>PC-lokaal GSCHB.2.027, Valentin Vaerwyckweg 1, Gent, 41.02 - Gebouw B, Campus Schoonmeersen<br/>Van 13h15 tot 15h45: + B2.030 + B2.031<br/>",
+        "description": "<span class='activiteittype'>Onderwijs<\/span><br/><span class='cursusnaam'>Informatica<\/span><br/><span class='cursuscode'>E701053<\/span><br/>groep: 13,14,18<br/>Marleen Denert<br/>PC-lokaal GSCHB.2.027, Valentin Vaerwyckweg 1, Gent, 41.02 - Gebouw B, Campus Schoonmeersen<br/>Van 13h15 tot 15h45: + B2.030 + B2.031<br/>",
+        "end": "2020-03-04T16:45",
+        "className": "onderwijs",
+        "id": 97,
+        "title": "E701053"
+    }, {
+        "allDay": false,
+        "editable": false,
+        "start": "2020-02-17T17:45",
+        "tooltip": "<span class='tijdstip'>17:45-20:00<\/span><br/><span class='activiteittype'>Onderwijs<\/span><br/><span class='cursusnaam'>Ingenieursproject<\/span><br/><span class='cursuscode'>E701052<\/span><br/>groep: -<br/>Kathleen Gekiere<br/>Auditorium 1 Leon De Meyer - 600, Sint-Pietersnieuwstraat 33-35, Gent, 27.21 - Het Ufo, Campus Ufo<br/>",
+        "description": "<span class='activiteittype'>Onderwijs<\/span><br/><span class='cursusnaam'>Ingenieursproject<\/span><br/><span class='cursuscode'>E701052<\/span><br/>groep: -<br/>Kathleen Gekiere<br/>Auditorium 1 Leon De Meyer - 600, Sint-Pietersnieuwstraat 33-35, Gent, 27.21 - Het Ufo, Campus Ufo<br/>",
+        "end": "2020-02-17T20:00",
+        "className": "onderwijs",
+        "id": 98,
+        "title": "E701052"
+    }, {
+        "allDay": false,
+        "editable": false,
+        "start": "2020-01-29T13:30",
+        "tooltip": "<span class='tijdstip'>13:30-16:45<\/span><br/><span class='activiteittype'>Examen<\/span><br/><span class='cursusnaam'>Materialen<\/span><br/><span class='cursuscode'>E701029<\/span><br/>deel: A<br/>groep: 2<br/>Kim Ragaert<br/>GSCHC.0.125, Valentin Vaerwyckweg  1, Gent, 41.03 - Gebouw C, Campus Schoonmeersen<br/>",
+        "description": "<span class='activiteittype'>Examen<\/span><br/><span class='cursusnaam'>Materialen<\/span><br/><span class='cursuscode'>E701029<\/span><br/>deel: A<br/>groep: 2<br/>Kim Ragaert<br/>GSCHC.0.125, Valentin Vaerwyckweg  1, Gent, 41.03 - Gebouw C, Campus Schoonmeersen<br/>",
+        "end": "2020-01-29T16:45",
+        "className": "examen",
+        "id": 99,
+        "title": "E701029"
+    }, {
+        "allDay": false,
+        "editable": false,
+        "start": "2020-02-17T15:45",
+        "tooltip": "<span class='tijdstip'>15:45-17:45<\/span><br/><span class='activiteittype'>Onderwijs<\/span><br/><span class='cursusnaam'>Fysica<\/span><br/><span class='cursuscode'>E701056<\/span><br/>groep: 1,2,5,6,13-18,30,31<br/>Toon Van Alboom<br/>GSCHP.0.154, Valentin Vaerwyckweg  1, Gent, 41.05 - Gebouw P, Campus Schoonmeersen<br/>Van 15h15 tot 17h15<br/>",
+        "description": "<span class='activiteittype'>Onderwijs<\/span><br/><span class='cursusnaam'>Fysica<\/span><br/><span class='cursuscode'>E701056<\/span><br/>groep: 1,2,5,6,13-18,30,31<br/>Toon Van Alboom<br/>GSCHP.0.154, Valentin Vaerwyckweg  1, Gent, 41.05 - Gebouw P, Campus Schoonmeersen<br/>Van 15h15 tot 17h15<br/>",
+        "end": "2020-02-17T17:45",
+        "className": "onderwijs",
+        "id": 100,
+        "title": "E701056"
+    }, {
+        "allDay": false,
+        "editable": false,
+        "start": "2020-02-12T13:30",
+        "tooltip": "<span class='tijdstip'>13:30-15:30<\/span><br/><span class='activiteittype'>Onderwijs<\/span><br/><span class='cursusnaam'>Fysica<\/span><br/><span class='cursuscode'>E701056<\/span><br/>groep: 15-18<br/>Toon Van Alboom<br/>GSCHC.1.155 CPVZ, Valentin Vaerwyckweg  1, Gent, 41.03 - Gebouw C, Campus Schoonmeersen<br/>",
+        "description": "<span class='activiteittype'>Onderwijs<\/span><br/><span class='cursusnaam'>Fysica<\/span><br/><span class='cursuscode'>E701056<\/span><br/>groep: 15-18<br/>Toon Van Alboom<br/>GSCHC.1.155 CPVZ, Valentin Vaerwyckweg  1, Gent, 41.03 - Gebouw C, Campus Schoonmeersen<br/>",
+        "end": "2020-02-12T15:30",
+        "className": "onderwijs",
+        "id": 101,
+        "title": "E701056"
+    }
+]

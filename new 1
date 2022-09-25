@@ -1,0 +1,2 @@
+detijd:
+	- Remove all cookies, before a request to a html page

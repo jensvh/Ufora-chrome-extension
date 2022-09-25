@@ -1,0 +1,910 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="nl" lang="nl">
+<head><link rel="stylesheet" type="text/css" href="../wicket/resource/com.googlecode.wicket.jquery.ui.calendar.resource.CalendarStyleSheetResourceReference/fullcalendar.min-ver-74D86E26E33AA8A239E32B0513BEAF84.css" />
+<script type="text/javascript" src="../wicket/resource/be.ugent.komodo.web.Root/js/jquery-ver-03A750B04E44F07755EB6B3620A2D505.js"></script>
+<script type="text/javascript" src="../wicket/resource/com.googlecode.wicket.jquery.core.resource.JQueryMomentResourceReference/moment.min-ver-E9E6027A02B43E6D724D13F60822C869.js"></script>
+<script type="text/javascript" src="../wicket/resource/com.googlecode.wicket.jquery.ui.calendar.resource.CalendarJavaScriptResourceReference/fullcalendar.min-ver-CE2F5016FB146E7B7193A89B10F3BE52.js"></script>
+<script type="text/javascript" src="../wicket/resource/com.googlecode.wicket.jquery.ui.calendar.resource.GCalJavaScriptResourceReference/gcal-ver-80B4BFD9CAC9748A2B4D013FA6A8026D.js"></script>
+<script type="text/javascript" src="../wicket/resource/be.ugent.komodo.web.Root/js/jquery.ui.datepicker-nl-ver-378C0D84E175BCEF1C9184973C36859F.js"></script>
+<script type="text/javascript" src="../wicket/resource/be.ugent.komodo.web.Root/js/jquery.ui.calendar-nl-ver-2FAD350CC7D608EE4E1B8390E7978398.js"></script>
+
+<style id="be-ugent-komodo-huisstijl-wicket-components-FeedbackPanel-0">
+/*<![CDATA[*/
+
+.feedbackPanel .alert .glyphicon{
+vertical-align: top;
+width: 20px;
+}
+.feedbackPanel .alert span {
+display: inline-block;
+width: calc(100% - 30px);
+}
+
+/*]]>*/
+</style>
+<script type="text/javascript" src="../wicket/resource/org.apache.wicket.ajax.AbstractDefaultAjaxBehavior/res/js/wicket-event-jquery.min-ver-F9895CC8E65D4CD054E8B64B9196385E.js"></script>
+
+<style id="be-ugent-komodo-web-wicket-components-menu-AbstractMenuPanel-0">
+/*<![CDATA[*/
+
+.menubody {
+margin-top: 8px;
+margin-left: 10px;
+margin-right: 10px;
+}
+aside {
+margin-left: -10px;
+}
+
+/*]]>*/
+</style>
+<script type="text/javascript" src="../wicket/resource/be.ugent.komodo.web.Root/js/jquery-cookie/jquery.cookie-ver-EFFE5E3685ED17F5226EB83312587093.js"></script>
+<script type="text/javascript" src="../wicket/resource/org.apache.wicket.ajax.AbstractDefaultAjaxBehavior/res/js/wicket-ajax-jquery.min-ver-5A00F2783FA172481F8A178E6C4F30A6.js"></script>
+<script type="text/javascript" id="wicket-ajax-base-url">
+/*<![CDATA[*/
+Wicket.Ajax.baseUrl="kalender/mijnKalender?4";
+/*]]>*/
+</script>
+
+<style id="be-ugent-komodo-web-wicket-form-FormPanel-0">
+/*<![CDATA[*/
+
+.helpIcon {
+color: #1E64C8;
+}
+.helpIcon .glyphicon {
+font-size: 16px;
+}
+
+/*]]>*/
+</style>
+<script type="text/javascript" src="../wicket/resource/org.apache.wicket.extensions.ajax.markup.html.modal.ModalWindow/res/modal.min-ver-07E56710B55DC32BAADD279682D7A8D4.js"></script>
+<link rel="stylesheet" type="text/css" href="../wicket/resource/org.apache.wicket.extensions.ajax.markup.html.modal.ModalWindow/res/modal.min-ver-E99D4201F0F6C5D3081AD42ACB1F22C2.css" />
+
+<style type="text/css" id="be-ugent-komodo-web-wicket-DefaultDataTable-0">
+/*<![CDATA[*/
+
+table td.firstCol {
+color: #1E64C8;
+text-decoration-color: #1E64C8;
+text-decoration-line: underline;
+}
+tr:hover td {
+background-color: #E9F0FA;
+}
+tr th a{
+color : #000000;
+border-bottom: 0px;
+}
+
+/*]]>*/
+</style>
+<script type="text/javascript" id="be-ugent-komodo-web-wicket-DefaultDataTable-1">
+/*<![CDATA[*/
+
+
+/*]]>*/
+</script>
+
+<style id="org-apache-wicket-extensions-markup-html-tabs-TabbedPanel-0">
+/*<![CDATA[*/
+
+ul.nav-pills li:before, ul.nav-tabs li:before {
+/*remove arrow in li*/
+content: none !important;
+}
+.tab-content {
+/*kleine grijze border rond de inhoud van de geselecteerde tabl. (zodat deze mooi doorloopt met de tabs zelf)*/
+border: 1px solid #ccc;
+}
+.tab-pane {
+border-top: 1px solid #ddd;
+border-left: 1px solid #ddd;
+border-right: 1px solid #ddd;
+border-bottom: 1px solid #ddd;
+border-radius: 0px 0px 5px 5px;
+padding: 10px;
+}
+.nav-tabs {
+margin-bottom: 0;
+}
+.tabbedpanel-horizontal .nav-tabs > li.active > a, .nav-tabs > li.active > a:hover, .nav-tabs > li.active > a:focus {
+color: white;
+background-color: #1E64C8;
+}
+
+/*]]>*/
+</style>
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta http-equiv="Content-Type" content="text/html;charset=utf-8"/>
+<title>Centauro</title>
+<link rel="shortcut icon" type="image/x-icon" href="https://www.ugent.be/favicon.ico"/>
+<meta http-equiv="imagetoolbar" content="no"/>
+<style>
+/*<![CDATA[*/
+
+.ajaxBlocker {
+position: fixed !important;
+left: 0 !important;
+top: 0 !important;
+bottom: 0 !important;
+right: 0 !important;
+z-index: 99999 !important;
+opacity: 0 !important;
+}
+
+/*]]>*/
+</style>
+<link rel="stylesheet" type="text/css" href="../wicket/resource/be.ugent.komodo.web.Root/css/print-ver-CBA8F2EAF4777C44BDA3A553A5C02F80.css" media="print" />
+<link rel="stylesheet" type="text/css" href="../wicket/resource/be.ugent.komodo.web.Root/css/thickbox-ver-A18AA96CBAA865C47292BC52DDEE9635.css" />
+<link rel="stylesheet" type="text/css" href="../wicket/resource/be.ugent.komodo.web.Root/css/main-ver-E0A21D081C86EAC6C4EDB16A6DF372AF.css" />
+<link rel="stylesheet" type="text/css" href="../wicket/resource/be.ugent.komodo.web.Root/css/common-ver-832798B5AB65C6551DB77E62CB41E18F.css" />
+<link rel="stylesheet" type="text/css" href="../wicket/resource/be.ugent.komodo.web.Root/css/common-content-ver-21ECAF6390A829E45B44262E6502DB9F.css" />
+<link rel="stylesheet" type="text/css" href="../wicket/resource/be.ugent.komodo.web.Root/css/common-form-ver-3177C9A7A71697D7F2CBE2105CA599FC.css" />
+<link rel="stylesheet" type="text/css" href="../wicket/resource/be.ugent.komodo.web.Root/css/common-table-ver-0AD5B34B19D24251F46D2E6928BD8162.css" />
+<link rel="stylesheet" type="text/css" href="../wicket/resource/be.ugent.komodo.web.Root/css/common-form-kendoui-nh-ver-5B127352B9922B8234EAA8A51C6F23A7.css" />
+<link rel="stylesheet" type="text/css" href="../wicket/resource/be.ugent.komodo.web.Root/css/common-form-fullcalendar-ver-153FF8223E0BABDFA3BE92201DFE9618.css" />
+<link rel="stylesheet" type="text/css" href="../wicket/resource/be.ugent.komodo.web.Root/css/common-form-weekcalendar-ver-4D3F9ACD182CFDE423B087CFB8504C1A.css" />
+<link rel="stylesheet" type="text/css" href="../wicket/resource/be.ugent.komodo.web.Root/css/common-form-palette-ver-B6DA22F0B6FC5A89F1D5DE03C6ADD7DE.css" />
+<link rel="stylesheet" type="text/css" href="../wicket/resource/be.ugent.komodo.web.Root/css/common-ajax-ver-5B7914ECB09805E80D35C0CBA4FE0A5A.css" />
+<link rel="stylesheet" type="text/css" href="../wicket/resource/be.ugent.centauro.web.CentauroRoot/css/centauro-ver-74224F8FECB5FC4053CEE02C2C5B3869.css" />
+<link rel="stylesheet" type="text/css" href="../wicket/resource/be.ugent.komodo.web.Root/css/ui-lightness/jquery-ui-1.9.1.custom.min-ver-13E2B50D8C6250567DE9D45D03A841AB.css" />
+<link rel="stylesheet" type="text/css" href="../wicket/resource/be.ugent.komodo.web.Root/css/jquery.qtip.min-ver-E4D30F492BCF7A932513042DE9492B0F.css" />
+<script type="text/javascript" src="../wicket/resource/be.ugent.komodo.web.Root/js/jquery.qtip.min-ver-5C50C4E3B35636974DE3E6897F952374.js"></script>
+<script type="text/javascript" src="../wicket/resource/be.ugent.komodo.web.Root/js/consoleFixIE-ver-1B090758FADD725A5878F010124A9322.js"></script>
+<!--[if lte IE 7]><link rel="stylesheet" type="text/css" href="../wicket/resource/be.ugent.komodo.web.Root/css/IEToOldMessage-ver-280D2941C1877B524E3706C3FAA98F76.css" /><![endif]-->
+<link rel="stylesheet" type="text/css" href="../wicket/resource/be.ugent.komodo.web.Root/css/fixes_samen_met_nieuwehuisstijl-ver-31252F0967794B15DD5CCB4D58AE0A01.css" />
+<link rel="stylesheet" type="text/css" href="../wicket/resource/be.ugent.komodo.huisstijl.HuisstijlRoot/static/css/screen-ver-15D249694A199790F564237CF83145AE.css" />
+<script type="text/javascript" src="../wicket/resource/be.ugent.komodo.huisstijl.HuisstijlRoot/static/js/vendor/modernizr.min-ver-42AE785BFA748F2A7B3E9D9AB390C7B3.js"></script>
+<script type="text/javascript" src="../wicket/resource/be.ugent.komodo.huisstijl.HuisstijlRoot/static/js/vendor/picturefill.min-ver-1D343D827310C1B001DB8B2BB7EB9CB4.js"></script>
+<script type="text/javascript" src="../wicket/resource/be.ugent.komodo.huisstijl.HuisstijlRoot/static/js/vendor/bootstrap.min-ver-C5B5B2FA19BD66FF23211D9F844E0131.js"></script>
+<script type="text/javascript" src="../wicket/resource/be.ugent.komodo.huisstijl.HuisstijlRoot/static/js/vendor/bootstrap-select.min-ver-FC118AEC593ADA225171E4592A7204EA.js"></script>
+<script type="text/javascript" src="../wicket/resource/be.ugent.komodo.huisstijl.HuisstijlRoot/static/js/vendor/moment.min-ver-1E4942C1EDFEEE2B17704821A1BDE1F4.js"></script>
+<script type="text/javascript" src="../wicket/resource/be.ugent.komodo.huisstijl.HuisstijlRoot/static/js/vendor/datepicker/locale/nl-ver-6341AE4E950B1DF6E357C7FB71499309.js"></script>
+<script type="text/javascript" src="../wicket/resource/be.ugent.komodo.huisstijl.HuisstijlRoot/static/js/vendor/bootstrap-datetimepicker.min-ver-B9D4A2FBE12C964C67C3F7C5E813F96E.js"></script>
+<script type="text/javascript" id="redefineJQueryUIButton">
+/*<![CDATA[*/
+var btn = $.fn.button.noConflict() // reverts $.fn.button to jqueryui btn
+$.fn.btn = btn // assigns bootstrap button functionality to $.fn.btn
+/*]]>*/
+</script>
+<link rel="shortcut icon" href="../wicket/resource/be.ugent.komodo.huisstijl.HuisstijlRoot/static/favicon-ver-996E03E709DA42CD73657E8EC1E97CA0.ico" type="image/x-icon">
+<link rel="icon" href="../wicket/resource/be.ugent.komodo.huisstijl.HuisstijlRoot/static/favicon-16x16-ver-AC6FA1A70638DE392B5CBA7F0281FEF8.png" type="image/x-icon">
+<link rel="icon" href="../wicket/resource/be.ugent.komodo.huisstijl.HuisstijlRoot/static/favicon-32x32-ver-DDDDC69E76F2355896CD8F5DAADCD60C.png" type="image/x-icon">
+<link rel="icon" href="../wicket/resource/be.ugent.komodo.huisstijl.HuisstijlRoot/static/favicon-96x96-ver-EE633C48F53416637506FEA28DBCCF18.png" type="image/x-icon">
+<link rel="stylesheet" type="text/css" href="../wicket/resource/be.ugent.komodo.web.Root/css/common-detailContent-ver-5B6026AE265160EE5A34747ECA7DF7AD.css" />
+<script type="text/javascript" src="../wicket/resource/com.googlecode.wicket.jquery.ui.resource.JQueryUIResourceReference/jquery-ui.min-ver-C15B1008DEC3C8967EA657A7BB4BAAEC.js"></script>
+<script type="text/javascript" >
+/*<![CDATA[*/
+Wicket.Event.add(window, "domready", function(event) { 
+$('#alg').on('hidden.bs.collapse', function () {
+$.removeCookie('alg');
+$.cookie('alg', '0',{ path: '/' });
+console.info('storing state for alg: 0');});
+$('#alg').on('show.bs.collapse', function () {
+$.removeCookie('alg');
+$.cookie('alg', '1',{ path: '/' });
+console.info('storing state for alg: 1');});
+$('#tav').on('hidden.bs.collapse', function () {
+$.removeCookie('tav');
+$.cookie('tav', '0',{ path: '/' });
+console.info('storing state for tav: 0');});
+$('#tav').on('show.bs.collapse', function () {
+$.removeCookie('tav');
+$.cookie('tav', '1',{ path: '/' });
+console.info('storing state for tav: 1');});
+$('#per').on('hidden.bs.collapse', function () {
+$.removeCookie('per');
+$.cookie('per', '0',{ path: '/' });
+console.info('storing state for per: 0');});
+$('#per').on('show.bs.collapse', function () {
+$.removeCookie('per');
+$.cookie('per', '1',{ path: '/' });
+console.info('storing state for per: 1');});
+$('#res').on('hidden.bs.collapse', function () {
+$.removeCookie('res');
+$.cookie('res', '0',{ path: '/' });
+console.info('storing state for res: 0');});
+$('#res').on('show.bs.collapse', function () {
+$.removeCookie('res');
+$.cookie('res', '1',{ path: '/' });
+console.info('storing state for res: 1');});
+$('#lee').on('hidden.bs.collapse', function () {
+$.removeCookie('lee');
+$.cookie('lee', '0',{ path: '/' });
+console.info('storing state for lee: 0');});
+$('#lee').on('show.bs.collapse', function () {
+$.removeCookie('lee');
+$.cookie('lee', '1',{ path: '/' });
+console.info('storing state for lee: 1');});
+Wicket.Ajax.ajax({"u":"./mijnKalender?4-3.IBehaviorListener.0-tabs-tabs~container-tabs-0-link","e":"click","c":"id40","i":"ajaxindicator"});;
+Wicket.Ajax.ajax({"u":"./mijnKalender?4-3.IBehaviorListener.0-tabs-tabs~container-tabs-1-link","e":"click","c":"id41","i":"ajaxindicator"});;
+Wicket.Ajax.ajax({"u":"./mijnKalender?4-3.IBehaviorListener.0-tabs-tabs~container-tabs-2-link","e":"click","c":"id42","i":"ajaxindicator"});;
+Wicket.Ajax.ajax({"u":"./mijnKalender?4-3.IBehaviorListener.0-tabs-panel-kalenderBekijkenPanel-formPanel-fieldsWrapper-repeatingView-date-field-value-boostrapchangehelper","e":"change","c":"id19","i":"ajaxindicator","ad":true,"m":"POST"});;
+Wicket.Ajax.ajax({"u":"./mijnKalender?4-3.IBehaviorListener.1-tabs-panel-kalenderBekijkenPanel-formPanel-fieldsWrapper-repeatingView-date-field-value-boostrapchangehelper","e":"change","c":"id19","i":"ajaxindicator","fh":[function(attrs, jqXHR, errorMessage, textStatus){console.info('failure !',attrs); alert('Er is een fout opgetreden. Mogelijks is de HTTP sessie verlopen. Probeer de pagina te vernieuwen of keer terug naar de startpagina.');}],"ad":true,"m":"POST"});;
+$('#id1a').parent().parent().datetimepicker({
+           locale: 'nl',
+           useCurrent: false,
+           showTodayButton: true,
+           format : 'DD/MM/YYYY'                }); console.info('datetimepicker initalized');;
+$('#id1a').parent().parent().on('dp.change',function(e) { console.info('dp.change fired now!!'); var newDateAsText = ''; if (e.date) {newDateAsText = e.date.format('DD/MM/YYYY')}document.getElementById('id19').value=newDateAsText;setTimeout(function() {$('#id19').change();});console.info('hidden field filled in!!'); });;
+jQuery('#calendar').fullCalendar({ "selectHelper": false, "selectable": false, "eventRender": function(event, element, view) {element.qtip({content: event.tooltip, style: {widget: true, def: false }, position: {target: 'mouse', adjust: {x: 13, y: 0}}});  if (view.name == 'agendaWeek' || view.name == 'agendaDay') {element.find('div.fc-content').append('<div>' + event.description + '<\/div>');}}, "dayNamesShort": $.datepicker.regional['nl'].dayNamesShort, "axisFormat": 'HH:mm', "disableDragging": true, "eventClick": function (event,jsEvent,view) {
+var attrs = {"u":"./mijnKalender?4-3.IBehaviorListener.0-tabs-panel-kalenderBekijkenPanel-calendar","c":"calendar","i":"ajaxindicator"};
+var params = [{"name":"eventId","value":event.id},{"name":"viewName","value":view.name}];
+attrs.ep = params.concat(attrs.ep || []);
+Wicket.Ajax.ajax(attrs);
+}
+, "theme": true, "eventLimit": false, "firstHour": 7, "columnFormat": {month: 'dddd', week: 'ddd D MMM', day: 'dddd D MMMM'}, "monthNames": $.datepicker.regional['nl'].monthNames, "slotMinutes": 30, "buttonText": {month: $.fc.regional['nl'].monthText, week: $.fc.regional['nl'].weekText, day: $.fc.regional['nl'].dayText, today: $.fc.regional['nl'].todayText}, "eventSources": [{ url: './mijnKalender?4-3.IBehaviorListener.1-tabs-panel-kalenderBekijkenPanel-calendar' }], "editable": true, "dayNames": $.datepicker.regional['nl'].dayNames, "disableResizing": true, "droppable": false, "firstDay": 1, "titleFormat": {month: 'MMMM YYYY', week: 'dddd D MMM YYYY', day: 'dddd D MMM YYYY'}, "allDaySlot": true, "timeFormat": 'HH:mm', "allDayText": $.fc.regional['nl'].allDayText, "eventDurationEditable": false, "header": { left: 'title', right: 'month,agendaWeek,agendaDay today prev,next', 'default': 'month' }, "monthNamesShort": $.datepicker.regional['nl'].monthNamesShort });;
+jQuery("<img id='calendar-indicator' src='../wicket/resource/org.apache.wicket.ajax.AbstractDefaultAjaxBehavior/indicator-ver-03CE3DCC84AF110E9DA8699A841E5200.gif' />").appendTo('.fc-header-center');
+jQuery(document).ajaxStart(function() { jQuery('#calendar-indicator').show(); });
+jQuery(document).ajaxStop(function() { jQuery('#calendar-indicator').hide(); });
+;
+Wicket.Ajax.ajax({"u":"./mijnKalender?4-3.IBehaviorListener.0-tabs-panel-activiteitenNaAfspraakPanel-formPanel-fieldsWrapper-repeatingView-academieJaar-field-selectWrapper-valueSelect","e":"change","c":"id1b","i":"ajaxindicator","fh":[function(attrs, jqXHR, errorMessage, textStatus){console.info('failure !',attrs); alert('Er is een fout opgetreden. Mogelijks is de HTTP sessie verlopen. Probeer de pagina te vernieuwen of keer terug naar de startpagina.');}],"ad":true,"m":"POST"});;
+Wicket.Ajax.ajax({"u":"./mijnKalender?4-3.IBehaviorListener.0-tabs-panel-activiteitenNaAfspraakPanel-formPanel-fieldsWrapper-repeatingView-groep-field-value","e":"change","c":"id1c","i":"ajaxindicator","fh":[function(attrs, jqXHR, errorMessage, textStatus){console.info('failure !',attrs); alert('Er is een fout opgetreden. Mogelijks is de HTTP sessie verlopen. Probeer de pagina te vernieuwen of keer terug naar de startpagina.');}],"ad":true,"m":"POST"});;
+Wicket.Ajax.ajax({"u":"./mijnKalender?4-3.IBehaviorListener.0-tabs-panel-activiteitenNaAfspraakPanel-formPanel-fieldsWrapper-repeatingView-examenSessieVoorExamenNaAfspraak-field-selectWrapper-valueSelect","e":"change","c":"id1d","i":"ajaxindicator","fh":[function(attrs, jqXHR, errorMessage, textStatus){console.info('failure !',attrs); alert('Er is een fout opgetreden. Mogelijks is de HTTP sessie verlopen. Probeer de pagina te vernieuwen of keer terug naar de startpagina.');}],"ad":true,"m":"POST"});;
+        $(document).ready(function () {
+            // put all your jQuery goodness in here.
+            //alert('done');
+            $('[filterplaceholder]').focus(function () {
+                var input = $(this);
+                if (input.val() == input.attr('filterplaceholder')) {
+                    input.val('');
+                    input.removeClass('filterplaceholder');
+                }
+            }).blur(function () {
+                        var input = $(this);
+                        if (input.val() == '' || input.val() == input.attr('filterplaceholder')) {
+                            input.addClass('filterplaceholder');
+                            input.val(input.attr('filterplaceholder'));
+                        }
+                        $('.gips-container').css({ display: 'none' });
+                    }).blur();
+
+        });
+
+;
+    $('.pageheader .toggle-search').on('click', function () {
+        $('.pageheader').toggleClass('showsearch');
+        $('.pageheader #search').focus();
+    });
+;
+$('.procesbutton').not('.btn').not('.default').not('.nobutton').not('.ui-button').addClass('btn btn-primary').removeClass('procesbutton');$('button').not('.btn').not('.default').not('.dropdown-toggle').not('.nobutton').not('.ui-button').not('.btn-outline').addClass('btn btn-primary');$('button.default').not('.ui-button').addClass('btn btn-default');$('button.fc-prev-button.ui-button span.ui-icon.ui-icon-circle-triangle-w').addClass('glyphicon glyphicon-chevron-left').removeClass('ui-icon-circle-triangle-w').removeClass('ui-icon').after('<span class="sr-only">Previous<\/span>');$('button.fc-next-button.ui-button span.ui-icon.ui-icon-circle-triangle-e').addClass('glyphicon glyphicon-chevron-right').removeClass('ui-icon-circle-triangle-e').removeClass('ui-icon').after('<span class="sr-only">Next<\/span>');$('.w_content .detailContentContainer .operationButtonsContainer').addClass('pull-right');$('.w_content .buttonContainer').addClass('pull-right');;
+$('select').not([style='display:none']).not('.choiceFilter').not('.selectpicker').not('.noselectpicker').not('.bootstrap-select .selectpicker').addClass('selectpicker').selectpicker();;
+$('.formline').addClass('form-group');$('.formline > label').addClass('col-md-2 control-label');$('.formline > .formcol').addClass('form-control');$('form').addClass('form-horizontal');$('.formline > .formcol').wrap('<div class="col-md-10"><div>');;
+Wicket.Event.publish(Wicket.Event.Topic.AJAX_HANDLERS_BOUND);
+;});
+/*]]>*/
+</script>
+<script type="text/javascript" >
+/*<![CDATA[*/
+Wicket.Event.add(window, "load", function(event) { 
+Wicket.Event.subscribe('/ajax/call/done', function( attributes, jqXHR, textStatus) {
+$('.procesbutton').not('.btn').not('.default').not('.nobutton').not('.ui-button').addClass('btn btn-primary').removeClass('procesbutton');$('button').not('.btn').not('.default').not('.dropdown-toggle').not('.nobutton').not('.ui-button').not('.btn-outline').addClass('btn btn-primary');$('button.default').not('.ui-button').addClass('btn btn-default');$('button.fc-prev-button.ui-button span.ui-icon.ui-icon-circle-triangle-w').addClass('glyphicon glyphicon-chevron-left').removeClass('ui-icon-circle-triangle-w').removeClass('ui-icon').after('<span class="sr-only">Previous<\/span>');$('button.fc-next-button.ui-button span.ui-icon.ui-icon-circle-triangle-e').addClass('glyphicon glyphicon-chevron-right').removeClass('ui-icon-circle-triangle-e').removeClass('ui-icon').after('<span class="sr-only">Next<\/span>');$('.w_content .detailContentContainer .operationButtonsContainer').addClass('pull-right');$('.w_content .buttonContainer').addClass('pull-right'); });;
+Wicket.Event.subscribe('/dom/node/removing', function( jqEvent, elementToBeRemoved) { var isSelect = $(elementToBeRemoved).is('select');var containsSelect = $(elementToBeRemoved).has('select').length > 0; if (isSelect ) {   $(elementToBeRemoved).selectpicker('destroy');}if (containsSelect) {   $(elementToBeRemoved).find('.bootstrap-select .selectpicker').selectpicker('destroy');}});Wicket.Event.subscribe('/dom/node/added', function( jqEvent, addedElement) { var isSelect = $(addedElement).is('select');var containsSelect = $(addedElement).has('select').length > 0; if (isSelect ) { $(addedElement).not([style='display:none']).not('.choiceFilter').not('.selectpicker').not('.noselectpicker').not('.bootstrap-select .selectpicker').addClass('selectpicker').selectpicker();} 
+if (containsSelect) {   $(addedElement).find('select').not([style='display:none']).not('.choiceFilter').not('.selectpicker').not('.noselectpicker').not('.bootstrap-select .selectpicker').addClass('selectpicker').selectpicker();}});;
+Wicket.Event.subscribe('/ajax/call/complete', function( attributes, jqXHR, textStatus) {
+$('.formline').addClass('form-group');$('.formline > label').addClass('col-md-2 control-label');$('.formline > .formcol').addClass('form-control');$('form').addClass('form-horizontal');$('.formline > .formcol').wrap('<div class="col-md-10"><div>'); });;
+Wicket.Event.subscribe('/ajax/call/done', function( attributes, jqXHR, textStatus) {
+setTimeout( function() {$('.w_content_container div.form-group > label.col-md-2.control-label').removeClass('col-md-2').addClass('col-md-3');$('.w_content_container div.form-group > div.col-md-2').removeClass('col-md-2').addClass('col-md-3');$('.w_content_container div.form-group > div.col-md-10').removeClass('col-md-10').addClass('col-md-9');}); });;
+;});
+/*]]>*/
+</script>
+</head>
+<body>
+
+<div class="fluid-container">
+<div class="row">
+<header class="pageheader col-xs-12 ">
+<nav class="navbar navbar-default">
+<div class="row">
+<div class="navbar-header col-xs-12 col-sm-2">
+<div class="page-logo">
+<a class="link" target="_blank" href="http://www.ugent.be/nl"  title="Universiteit Gent">
+<img src="../wicket/resource/be.ugent.komodo.huisstijl.HuisstijlRoot/static/images/logo-ugent-ver-6E7F2021F3F25B58E0326F793DB07D14.svg">
+</a>
+</div>
+</div>
+<div id="navbar" class="collapse navbar-collapse col-sm-10"
+role="navigation">
+<div></div>
+<div class="row menu">
+<div class="col-xs-12">
+<div class="bg-primary spacer">
+<div class="row">
+<div class="col-xs-12">
+<ul class="nav-tertiary nav navbar-nav navbar-right">
+
+<li>
+<a href="./mijnKalender?4-3.ILinkListener-logoutLink">Jens Van Humbeeck</a>
+</li>
+
+
+<li>
+
+</li>
+<li>
+<a href="./mijnKalender?4-3.ILinkListener-engels">
+In English
+</a>
+</li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</nav>
+<div class="row">
+<div class="col-xs-12 col-sm-6 col-sm-offset-2 branding-container faculty-1">
+<a href="/">
+<h1>Centauro</h1>
+</a>
+</div>
+</div>
+</header>
+</div>
+</div>
+<div class="fluid-container">
+<aside class="col-sm-12 col-md-2 inpage-nav-container oasis-aside">
+<div id="nav-anchor"></div>
+<nav role="navigation" data-lockfixed="true" class="bg-tertiary">
+<div>
+<div class="panel-group content-text" id="accordion">
+<div class="panel panel-default">
+<div class="panel-heading">
+<span class="panel-title">
+<a class="" aria-expanded="true" href="#alg" data-toggle="collapse">
+<i class="glyphicon glyphicon-plus"></i>
+<i class="glyphicon glyphicon-minus"></i>
+<span>Algemeen</span>
+</a>
+</span>
+</div>
+<div id="alg" class="panel-collapse collapse in">
+<div class="panel-body menubody">
+<div>
+<ul>
+<li>
+<a>
+<a href="../home">
+<span class="tree-label">Startpagina</span>
+</a>
+</a>
+</li>
+</ul>
+</div>
+</div>
+</div>
+</div><div class="panel panel-default">
+<div class="panel-heading">
+<span class="panel-title">
+<a class="" aria-expanded="true" href="#tav" data-toggle="collapse">
+<i class="glyphicon glyphicon-plus"></i>
+<i class="glyphicon glyphicon-minus"></i>
+<span>Tarieven en voorwaarden</span>
+</a>
+</span>
+</div>
+<div id="tav" class="panel-collapse collapse in">
+<div class="panel-body menubody">
+<div>
+<ul>
+<li>
+<a>
+<a href="http://www.ugent.be/nl/univgent/lokalenverhuur/gebruiksvoorwaarden-aula.htm" target="_blank">
+<span class="tree-label">Aulacomplex</span>
+</a>
+</a>
+</li><li>
+<a>
+<a href="http://www.ugent.be/het-pand/nl/zaalverhuur/voorwaarden" target="_blank">
+<span class="tree-label">Het Pand</span>
+</a>
+</a>
+</li><li>
+<a>
+<a href="http://www.ugent.be/nl/univgent/lokalenverhuur/gebruiksvoorwaarden-ufo.htm" target="_blank">
+<span class="tree-label">Het Ufo</span>
+</a>
+</a>
+</li><li>
+<a>
+<a href="https://www.ugent.be/nl/univgent/voorzieningen/lokalenverhuur/gebruiksvoorwaarden-paviljoen.htm" target="_blank">
+<span class="tree-label">Paviljoen Vandenhove</span>
+</a>
+</a>
+</li><li>
+<a>
+<a href="http://www.ugent.be/nl/univgent/lokalenverhuur/gevruiksvoorwaarden.htm" target="_blank">
+<span class="tree-label">Andere auditoria en lokalen</span>
+</a>
+</a>
+</li>
+</ul>
+</div>
+</div>
+</div>
+</div><div class="panel panel-default">
+<div class="panel-heading">
+<span class="panel-title">
+<a class="" aria-expanded="true" href="#per" data-toggle="collapse">
+<i class="glyphicon glyphicon-plus"></i>
+<i class="glyphicon glyphicon-minus"></i>
+<span>Persoonlijk</span>
+</a>
+</span>
+</div>
+<div id="per" class="panel-collapse collapse in">
+<div class="panel-body menubody">
+<div>
+<ul>
+<li>
+<a>
+<a href="../persoonlijk/mijnGegevens">
+<span class="tree-label">Mijn gegevens</span>
+</a>
+</a>
+</li><li>
+<a>
+<a href="./mijnKalender">
+<span class="tree-label">Mijn kalender</span>
+</a>
+</a>
+</li>
+</ul>
+</div>
+</div>
+</div>
+</div><div class="panel panel-default">
+<div class="panel-heading">
+<span class="panel-title">
+<a class="" aria-expanded="true" href="#res" data-toggle="collapse">
+<i class="glyphicon glyphicon-plus"></i>
+<i class="glyphicon glyphicon-minus"></i>
+<span>Activiteiten</span>
+</a>
+</span>
+</div>
+<div id="res" class="panel-collapse collapse in">
+<div class="panel-body menubody">
+<div>
+<ul>
+<li>
+<a>
+<a href="../reserveringen/activiteitAanmaken">
+<span class="tree-label">Activiteit aanmaken</span>
+</a>
+</a>
+</li><li>
+<a>
+<a href="../reserveringen/overzichtActiviteiten">
+<span class="tree-label">Mijn activiteiten</span>
+</a>
+</a>
+</li>
+</ul>
+</div>
+</div>
+</div>
+</div><div class="panel panel-default">
+<div class="panel-heading">
+<span class="panel-title">
+<a class="" aria-expanded="true" href="#lee" data-toggle="collapse">
+<i class="glyphicon glyphicon-plus"></i>
+<i class="glyphicon glyphicon-minus"></i>
+<span>Les- en examenroosters</span>
+</a>
+</span>
+</div>
+<div id="lee" class="panel-collapse collapse in">
+<div class="panel-body menubody">
+<div>
+<ul>
+<li>
+<a>
+<a href="../lesenexamenroosters/studentKalender">
+<span class="tree-label">Roosters bekijken</span>
+</a>
+</a>
+</li><li>
+<a>
+<a href="../lesenexamenroosters/deelnametweedekans">
+<span class="tree-label">Deelname aan tweedekansexamens</span>
+</a>
+</a>
+</li><li>
+<a>
+<a href="../wicket/bookmarkable/be.ugent.centauro.web.wicket.persoonlijk.RoosterConfiguratiePage">
+<span class="tree-label">Roosterconfiguratie</span>
+</a>
+</a>
+</li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</nav>
+</aside>
+<article class="col-sm-12 col-md-10 ">
+<noscript>
+<div class="feedback">
+<ul class="feedbackPanel">
+<li class="feedbackPanelERROR">
+Uw browser ondersteunt geen JavaScript of JavaScript is niet ingeschakeld. Zonder JavaScript kan sommige functionaliteit van deze webapplicatie uitgeschakeld zijn of foutmeldingen veroorzaken. Raadpleeg om JavaScript in te schakelen de handleiding van uw browser of contacteer uw systeembeheerder.
+</li>
+</ul>
+</div>
+</noscript>
+<div class="IEToOldMessage">
+<ul>
+<li>
+Als u de Centauro-webtoepassing gebruikt in deze versie van Internet Explorer, kunnen er zich
+        problemen voordoen omdat deze browser niet ondersteund wordt. <br/>Gelieve een recentere versie van Internet Explorer (versie 8 of
+        hoger), een andere browser of Internet Explorer via Athena te gebruiken.<br/>Het is ook mogelijk dat u deze boodschap ziet omdat de
+        browser in compatibiliteitsmodus werkt. In dat geval schakelt u de compatibiliteitsmodus het best uit.
+    
+</li>
+</ul>
+</div>
+<div id="id1e">
+
+</div>
+
+<h2>
+Mijn kalender
+&nbsp;&nbsp;<a href="./mijnKalender?4-3.ILinkListener-helpLink" class="helpLink" target="_blank">&nbsp;&nbsp;&nbsp;&nbsp;</a>
+</h2>
+<span class="tabbedpanel-horizontal" id="id1f">
+<ul class="nav nav-tabs col-md-12">
+<li style="list-style-type: none" class="tab0 active">
+<a href="./mijnKalender?4-3.ILinkListener-tabs-tabs~container-tabs-0-link" id="id40">
+<span>Bekijken</span>
+</a>
+</li><li style="list-style-type: none" class="tab1">
+<a href="./mijnKalender?4-3.ILinkListener-tabs-tabs~container-tabs-1-link" id="id41">
+<span>Afdrukken</span>
+</a>
+</li><li style="list-style-type: none" class="tab2 last">
+<a href="./mijnKalender?4-3.ILinkListener-tabs-tabs~container-tabs-2-link" id="id42">
+<span>Exporteren</span>
+</a>
+</li>
+</ul>
+<div class="tab-content active panel  col-md-12">
+<div>
+<div id="id20" style="display:none">
+
+</div>
+<div>
+
+<div class="form-horizontal row-border rowmulti-column-form-panel">
+<div id="id21" class="col-md-12">
+<div class="form-group">
+<label class="control-label col-md-2">Datum</label>
+<div class="col-md-10" id="id22">
+<div class="input-group ">
+<div class="" id="id23">
+
+<input class="form-control" value="" name="tabs:panel:kalenderBekijkenPanel:formPanel:fieldsWrapper:repeatingView:date:field:value:bootstrapPicker" id="id1a" placeholder="dd/mm/jjjj">
+<input type="text" style="display:none" value="" name="tabs:panel:kalenderBekijkenPanel:formPanel:fieldsWrapper:repeatingView:date:field:value:boostrapchangehelper" id="id19">
+</div>
+<span class="input-group-addon">
+<span class="glyphicon glyphicon-calendar"></span>
+</span>
+</div>
+
+</div>
+</div>
+</div>
+</div>
+
+</div>
+<div id="calendar"></div>
+</div>
+<h3>
+In te plannen activiteiten na afspraak
+</h3>
+<div>
+<div id="id24" style="display:none">
+
+</div>
+<div>
+
+<div class="form-horizontal row-border rowmulti-column-form-panel">
+<div id="id25" class="col-md-12">
+<div class="form-group">
+<label class="col-md-2 control-label">Academiejaar *</label>
+<div class="col-md-10" id="id26">
+<div class="borderwrapper">
+<span>
+<select class="form-control" data-container="body" name="tabs:panel:activiteitenNaAfspraakPanel:formPanel:fieldsWrapper:repeatingView:academieJaar:field:selectWrapper:valueSelect" id="id1b" data-none-selected-text="Kies er een">
+<option value="4057945">2018-2019</option>
+<option selected="selected" value="4058091">2019-2020</option>
+<option value="6772514">2020-2021</option>
+</select>
+</span>
+<input id="id27" style="display:none"></input>
+
+</div>
+</div>
+</div>
+</div><div id="id28" class="col-md-12">
+<div class="form-group">
+<div class="control-label col-md-2" id="id29">
+<label class="control-label">Groep (alleen les)</label>
+
+</div>
+<div class="col-md-10" id="id2a">
+<span class="input-group" style="width: 100%">
+
+<input type="text" class="form-control" value="" name="tabs:panel:activiteitenNaAfspraakPanel:formPanel:fieldsWrapper:repeatingView:groep:field:value" id="id1c">
+
+</span>
+
+</div>
+</div>
+</div><div id="id2b" class="col-md-12">
+<div class="form-group">
+<label class="col-md-2 control-label">Examensessie (alleen examen)</label>
+<div class="col-md-10" id="id2c">
+<div class="borderwrapper">
+<span>
+<select class="form-control" data-container="body" name="tabs:panel:activiteitenNaAfspraakPanel:formPanel:fieldsWrapper:repeatingView:examenSessieVoorExamenNaAfspraak:field:selectWrapper:valueSelect" id="id1d" data-none-selected-text="Kies er een">
+<option selected="selected" value=""></option>
+<option value="0">1-jan</option>
+<option value="1">2-jun</option>
+<option value="2">3-sep</option>
+</select>
+</span>
+<input id="id2d" style="display:none"></input>
+
+</div>
+</div>
+</div>
+</div>
+</div>
+
+</div>
+<h4 class="push">
+Lessen
+</h4>
+<div id="id2e">
+<table id="id2f" class="komodotable table-striped table-sortable">
+
+<thead>
+<wicket:container id="id30" style="display:none"></wicket:container>
+<tr class="headers">
+
+<th class="header">
+<span>Cursuscode</span>
+<span class="sort">
+<i class="glyphicon glyphicon-menu-down"></i>
+<i class="glyphicon glyphicon-menu-up"></i>
+</span>
+</th>
+
+<th class="header">
+<span>Cursusnaam</span>
+<span class="sort">
+<i class="glyphicon glyphicon-menu-down"></i>
+<i class="glyphicon glyphicon-menu-up"></i>
+</span>
+</th>
+
+<th class="header">
+<span>Lesgevers</span>
+<span class="sort">
+<i class="glyphicon glyphicon-menu-down"></i>
+<i class="glyphicon glyphicon-menu-up"></i>
+</span>
+</th>
+
+</tr>
+
+</thead>
+<tfoot>
+
+<tr class="norecords-tr">
+<td class="norecords-td" colspan="3">
+<div>Geen activiteiten gevonden.</div>
+</td>
+</tr>
+
+</tfoot>
+<tbody>
+
+</tbody>
+</table>
+</div>
+<h4 class="push">
+Examens na afspraak
+</h4>
+<div id="id31">
+<table id="id32" class="komodotable table-striped table-sortable">
+
+<thead>
+<wicket:container id="id33" style="display:none"></wicket:container>
+<tr class="headers">
+
+<th class="header">
+<span>Cursuscode</span>
+<span class="sort">
+<i class="glyphicon glyphicon-menu-down"></i>
+<i class="glyphicon glyphicon-menu-up"></i>
+</span>
+</th>
+
+<th class="header">
+<span>Cursusnaam</span>
+<span class="sort">
+<i class="glyphicon glyphicon-menu-down"></i>
+<i class="glyphicon glyphicon-menu-up"></i>
+</span>
+</th>
+
+<th class="header">
+<span>Examinators</span>
+<span class="sort">
+<i class="glyphicon glyphicon-menu-down"></i>
+<i class="glyphicon glyphicon-menu-up"></i>
+</span>
+</th>
+
+</tr>
+
+</thead>
+<tfoot>
+
+<tr class="norecords-tr">
+<td class="norecords-td" colspan="3">
+<div>Geen activiteiten gevonden.</div>
+</td>
+</tr>
+
+</tfoot>
+<tbody>
+
+</tbody>
+</table>
+</div>
+<h4 class="push">
+Examens door student te kiezen
+</h4>
+<div id="id34">
+<table id="id35" class="komodotable table-striped table-sortable">
+
+<thead>
+<wicket:container id="id36" style="display:none"></wicket:container>
+<tr class="headers">
+
+<th class="header">
+<span>Cursuscode</span>
+<span class="sort">
+<i class="glyphicon glyphicon-menu-down"></i>
+<i class="glyphicon glyphicon-menu-up"></i>
+</span>
+</th>
+
+<th class="header">
+<span>Cursusnaam</span>
+<span class="sort">
+<i class="glyphicon glyphicon-menu-down"></i>
+<i class="glyphicon glyphicon-menu-up"></i>
+</span>
+</th>
+
+<th class="header">
+<span>Examinators</span>
+<span class="sort">
+<i class="glyphicon glyphicon-menu-down"></i>
+<i class="glyphicon glyphicon-menu-up"></i>
+</span>
+</th>
+
+<th class="header actiesColumn">
+<span>Acties</span>
+<span class="sort">
+<i class="glyphicon glyphicon-menu-down"></i>
+<i class="glyphicon glyphicon-menu-up"></i>
+</span>
+</th>
+
+</tr>
+
+</thead>
+<tfoot>
+
+<tr class="norecords-tr">
+<td class="norecords-td" colspan="4">
+<div>Geen activiteiten gevonden.</div>
+</td>
+</tr>
+
+</tfoot>
+<tbody>
+
+</tbody>
+</table>
+</div>
+</div>
+</div>
+</span>
+
+</article>
+</div>
+<div class="fluid-container">
+<div id="ajaxindicator" style="display: none;">
+<div class="ajaxBlocker"></div>
+<div class="ajaxLoader">
+<img alt="loading..." src="../wicket/resource/be.ugent.komodo.web.Root/images/LargeAjaxIndicator-ver-A51C5608D01ACF32DF728F299767F82B.gif"/>
+</div>
+</div>
+<div id="ajaxIndicatorCalEvents" style="display: none;">
+<div class="ajaxBlocker"></div>
+<div class="ajaxLoader">
+<img alt="loading..." src="../wicket/resource/be.ugent.komodo.web.Root/images/LargeAjaxIndicator-ver-A51C5608D01ACF32DF728F299767F82B.gif"/>
+</div>
+</div>
+</div>
+<div id="container">
+<div id="topanchor">
+<a name="top" id="top">&nbsp;</a>
+</div>
+<div id="footerpush">&nbsp;</div>
+</div>
+
+<footer class="page-footer fluid-container">
+<div class="row">
+<div class="col-xs-12">
+<div class="bg-primary padding-20">
+<div class="row">
+<div id="socialbanner" class="container-share col-xs-12 col-sm-4">
+<ul class="list-inline list-unstyled social">
+<li><a href="http://www.facebook.com/ugent"> <i
+class="fa fa-facebook"></i><span class="sr-only">Facebook</span>
+</a></li>
+<li><a href="http://www.twitter.com/ugent"> <i
+class="fa fa-twitter"></i><span class="sr-only">Twitter</span>
+</a></li>
+<li><a
+href="http://www.linkedin.com/company/ghent-university"> <i
+class="fa fa-linkedin"></i><span class="sr-only">LinkedIn</span>
+</a></li>
+<li><a href="http://www.youtube.com/user/UniversiteitGent">
+<i class="fa fa-youtube"></i><span class="sr-only">YouTube</span>
+</a></li>
+<li><a href="https://www.instagram.com/ugent/"> <i class="fa fa-instagram"></i><span class="sr-only">Instagram</span>
+</a></li>
+</ul>
+</div>
+<div class="col-xs-12 col-sm-8">
+<ul class="list-inline list-unstyled pull-right">
+<li>
+<a id="id43" href="mailto:auditoria@ugent.be">Feedback</a>
+</li><li>
+<a id="id44" href="http://www.ugent.be/disclaimer">Disclaimer</a>
+</li><li>
+<a id="id45" href="http://www.ugent.be/nl/cookies">Cookies</a>
+</li><li>
+<a href="./mijnKalender?4-3.ILinkListener-footer-linksOnTheRight-3-link">Afmelden</a>
+</li>
+<li>
+<span>Versie 3.3.13</span>&nbsp;&nbsp;2016-19&nbsp;Universiteit Gent
+</li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+</div>
+</footer>
+
+</body>
+</html>

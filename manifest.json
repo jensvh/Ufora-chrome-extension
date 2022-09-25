@@ -1,0 +1,30 @@
+{
+  "name": "Ugent calender sync",
+  "version": "0.1",
+  "description": "Sync the UGent calendar with your Google agenda",
+  "manifest_version": 2,
+  "icons": {
+    "16": "images/icon-16x16.png",
+    "32": "images/icon-32x32.png",
+    "48": "images/icon-48x48.png",
+    "128": "images/icon-128x128.png"
+  },
+  "permissions": ["activeTab", "declarativeContent", "identity", "cookies", "https://cloud.timeedit.net/"],
+  
+  "background": {
+    "scripts": ["background.js"],
+	"persistent": false
+  },
+  
+  "page_action": {
+    "default_popup": "popup.html"
+  },
+  "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAizhU36acLJ61U5gHlZTN/aKJTCwXzH3Y4ljA0OVxnEylmqLJwptVUHU4Fj4ExNNCKA6jiR2SiBLjTLC/cXhN6sXG3V2iQDergsXQeVfA3FAY2K2eXyGjilGm3t2vfMZNMaHo6vwD+wBY+Img2MDyRddbk1vUPayqX/BITDcQyXVDIb4hVrJ0BqjvZnaO0sVVOgbmeE6ASl7gCoRqAfvanh0n+hDBqezshlh4hqb7RX0yMXN5pNYgH68hodLN1yHx2UrwpfyBbYd3tuX1DZDj1kX+2gp1ry/4Wn+fUbbY+BajPhBLxs2ydYB9MfcgojPkDogTRgi/DFa6YjzlZvfFQQIDAQAB",
+  "oauth2": {
+	"client_id": "175337511416-u15jh2d7u1r4ujh9mqbge43vdt0stbka.apps.googleusercontent.com",
+	"scopes": [
+	  "profile",
+	  "https://www.googleapis.com/auth/calendar"
+	]
+  }
+}
